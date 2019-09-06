@@ -1,12 +1,125 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+<head>
+	<meta charset="utf-8">
+	<title>Sedona</title>
+</head>
+<body>
+    <!--Хэдер сайта  -->
+	<header class="header">  
+		<nav class = "nav">
+			<img class="nav-logo" src="img/index-logo.svg" width = "120" heigth = "60" alt="Логотип Sedona">
+			<ul class="nav-list">
+				<li class="nav-item">Информация</li>
+				<li class="nav-item">Фото и видео</li>
+				<li class="nav-item">Карта штата</li>
+				<li class="nav-item">Гостиницы</li>
+			</ul>
+		</nav>
+		<h1 class="header-title">Sedona</h1>
+			<a>
+				<img class="header-img" src= "img/index-main-picture.jpg" width = "380" heigth = "240" alt="Главная картинка страницы" >
+			</a>
+    <!--О городе -->
+			<section>
+				<h2 class="about-city">Седона - небольшой городок в аризоне,  заслуживающий большего</h2>
+				<p class="main-advantage">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+			</section>
+	</header>
+    <!-- Первый блок main-->
+	<main> 
+		<section> 
+			<h2 class="main-title">Настоящий городок</h2>
+			<p class="main-number">-№1-</p>
+			<p class="main-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+		</section>
+		<section> 
+			<img class="main-restaurant" src="img/index-pictire-restaurant.jpg" width = "240" heigth = "120" alt="Ресторан города" > 
+		</section>
+	 <!--второй блок main -->
+		<section> 
+			<img class="home-icon" src = "img/index-home.svg" width = "120 " heigth = "60" alt = "Домик">
+			<h3 class="main-advantages">жильё</h3>
+			<p class="home-description">Рекомендуем пожить в настоящем мотеле. все как в кино!</p>
+		</section>
+		<section> 
+			<img class="foot-icon" src = "img/index-foot.svg" width = "120 " heigth = "60" alt = "еда">
+			<h3 class="main-advantages">еда</h3>
+			<p class="foot-description">Всегда заказывайте фирменный бургер,  вы не разочаруетесь!</p>
+		</section>
+		<section> 
+			<img class ="souvenirs-icon"src = "img/index-souvenirs.svg" width = "120 " heigth = "60" alt = "сувениры">
+			<h3 class ="main-advantages">сувениры</h3>
+			<p class="souvenirs-description">Не только китайскаго, но и местного  производства!</p>
+		</section>
+	<!--третий блок main -->
+		<section> 
+			<img class="main-bridge" src = "img/index-devil-bridge" width = "240" heigth = "120" alt"="Мост дьявола">
+		</section>
+		<section> 
+			<h2 class="main-title"> Там есть  мост дьявола</h2>
+			<p class="main-number">-№2-</p>
+			<p class="main-description">  Да, по нему можно пройтись! если конечно  вы осмелитесь</p>
+		</section>
+	<!--Четвертый блок main -->
+		<section> 
+			<h2 class="main-title">Небольшая  площадь</h2>
+			<p class="main-number"> -№3-</p>
+			<p class="main-description"> Все достопримечательности  находятся очень близко</p>
+		</section>
+		<section> 
+			<h2 class="main-title">Красивая  дорога</h2>
+			<p class="main-number"> -№4-</p>
+			<p class="main-description"> Ехать в седону изи лас-вегаса совсем  не скучно!
+			</p>
+		</section>
+		<section> 
+			<h2 class="main-title">Мало  туристов</h2>
+			<p class="main-number"> -№5-</p>
+			<p class="main-description"> Большинство едет в гранд каньон  и толпится там</p>
+		</section>
+	<!--форма поиска гостиниц -->
+		<section>
+			<h2 class="main-ask">Заинтересовались?</h2> 
+			<p class="main-information">Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+		</section>
+		<div class="main-form"> 
+			<form class="main-search">
+			<h2 class="form-title">Поиск гостиницы в седоне</h2> 
+				<p>
+					<label>Дата заезда:</label>
+					<input type="date" > 
+				</p>
+				<p>
+					<label>Дата выезда:</label>
+					<input type= "date" > 
+				</p>
+				<p>
+					<label for="adults">Взрослые:</label>
+					<input type="number" > 
+				</p>
+				<p>
+					<label for="kids">Дети:</label>
+					<input type="number" > 
+				</p>
+				<p><a href="#"/>Найти</p>
+			</form>
+		</div>
+	</main>
+	<!--Футер сайта -->
+	<footer class="footer"> 
+		<p class="footer-description">#Visitsedona</p>
+		<div class="footer-icon">	
+			<ul class="footer-list"> 
+				<li class="footer-links"><a href="#">Фейсбук</a></li>
+				<li class="footer-links"><a href="#">Телеграмм</a></li>
+				<li class="footer-links"><a href="#">Ютуб</a></li>
+			</ul>
+		</div>
+		<p class="footer-copyright">Website by</p>
+		<a class="footer-icon">
+			<img class="copyright-icon" src="img/index-footer-htmlacademy" width="120" heigth="60" alt="сайт выполнен: htmlacademy">
+		</a>
+	</footer>
+</body>
 </html>

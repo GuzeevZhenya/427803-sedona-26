@@ -8,76 +8,80 @@
     <!--Хэдер сайта  -->
 	<header class="header">  
 		<nav class="nav">
-			<img class="nav-logo" src="img/index-logo.svg" width ="120" heigth ="60" alt="Логотип Sedona">
+			<a>
+				<img class="nav-logo" src="img/index-logo.svg" width="120" heigth="60" alt="Логотип Sedona">
+			</a>
 			<ul class="nav-list">
-				<li><a href="#" class="nav-item">Информация</a></li>
+				<li><a href="catalog.html" class="nav-item">Информация</a></li>
 				<li><a href="#" class="nav-item">Фото и видео</a></li>
 				<li><a href="#" class="nav-item">Карта штата</a></li>
 				<li><a href="#" class="nav-item">Гостиницы</a></li>
 			</ul>
 		</nav>
 		<h1 class="header-title">Sedona</h1>
-				<img class="header-img" src="img/index-main-picture.jpg" width="380" heigth="240" alt="Главная картинка страницы" >		
+				<img src="img/index-main-picture.jpg" width="380" heigth="240" alt="Главная картинка страницы">	
+
     <!--О городе -->
-			<section>
-				<h2 class="about-city">Седона - небольшой городок в аризоне,  заслуживающий большего</h2>
-				<p class="main-advantage">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+			<section class="about-city">
+				<h2 class="main-page-title">Седона - небольшой городок в аризоне,  заслуживающий большего</h2>
+				<p class="city-subtitle">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
 			</section>
 	</header>
-    <!-- Первый блок main-->
+
+    <!-- Первый блок о городе-->
 	<main> 
-		<section> 
-			<h2 class="main-title">Настоящий городок</h2>
-			<p class="main-number">-№1-</p>
-			<p class="main-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+		<section class="reasons"> 
+			<h2 class="main-title-reason">Настоящий городок</h2>
+			<p><span class="reason-number">--№1--</span></p>
+			<p class="main-reason-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+			<img class="main-restaurant" src="img/index-picture-restaurant.jpg" width="240" heigth="120" alt="Ресторан города"> 
 		</section>
-		<section> 
-			<img class="main-restaurant" src="img/index-pictire-restaurant.jpg" width="240" heigth="120" alt="Ресторан города" > 
-		</section>
-	 <!--второй блок main -->
-		<section> 
-			<img class="home-icon" src="img/index-home.svg" width="120 " heigth="60" alt="Домик">
-			<h3 class="main-advantages">жильё</h3>
+
+	 <!--второй блок про жильё,еду и сувениры -->
+		<section class="advantages"> 
+			<!--Тут будет иконка домика-->
+			<h2 class="advantages-title">Жильё</h2>
 			<p class="home-description">Рекомендуем пожить в настоящем мотеле. все как в кино!</p>
 		</section>
-		<section> 
-			<img class="foot-icon" src="img/index-foot.svg" width="120 " heigth="60" alt="еда">
-			<h3 class="main-advantages">еда</h3>
+		<section class="about-food"> 
+			<!--Тут будет иконка бургера-->
+		<!<img class="foot-icon" src="img/index-foot.svg" width="120 " heigth="60" alt="еда">
+			<h2 class="advantages-title">Еда</h2>
 			<p class="foot-description">Всегда заказывайте фирменный бургер,  вы не разочаруетесь!</p>
 		</section>
-		<section> 
-			<img class="souvenirs-icon"src="img/index-souvenirs.svg" width="120 " heigth="60" alt="сувениры">
-			<h3 class="main-advantages">сувениры</h3>
+		<section class="about-souvenirs"> 
+			<!--Тут будет иконка сувениров-->
+			<h2 class="advantages-title">Сувениры</h2>
 			<p class="souvenirs-description">Не только китайскаго, но и местного  производства!</p>
 		</section>
-	<!--третий блок main -->
-		<section> 
-			<img class="main-bridge" src="img/index-devil-bridge" width="240" heigth="120" alt"="Мост дьявола">
+
+	<!--третий блок про мост дьявола -->
+		<section class="reasons"> 
+			<img class="bridge-picture" src="img/index-devil-bridge" width="240" heigth="120" alt="Мост дьявола">
+			<h2 class="main-title-reason">Там есть  мост дьявола</h2>
+			<p><span class="reason-number">--№2--</span></p>
+			<p class="main-reason-description">Да, по нему можно пройтись! если конечно  вы осмелитесь</p>
 		</section>
-		<section> 
-			<h2 class="main-title"> Там есть  мост дьявола</h2>
-			<p class="main-number">-№2-</p>
-			<p class="main-description">  Да, по нему можно пройтись! если конечно  вы осмелитесь</p>
-		</section>
+
 	<!--Четвертый блок main -->
-		<section> 
-			<h2 class="main-title">Небольшая  площадь</h2>
-			<p class="main-number">-№3-</p>
+		<section class="about-square"> 
+			<h2 class="advantages-title">Небольшая площадь</h2>
+			<p><span class="reason-number">--№3--</span></p>
 			<p class="main-description">Все достопримечательности  находятся очень близко</p>
 		</section>
-		<section> 
-			<h2 class="main-title">Красивая  дорога</h2>
-			<p class="main-number"> -№4-</p>
-			<p class="main-description"> Ехать в седону изи лас-вегаса совсем  не скучно!
-			</p>
+		<section class="about-road"> 
+			<h2 class="advantages-title">Красивая  дорога</h2>
+			<p><span class="reason-number">--№4--</span></p>
+			<p class="main-description">Ехать в седону изи лас-вегаса совсем  не скучно!</p>
+		</section>	
+		<section class="about-tourists"> 
+			<h2 class="advantages-title">Мало туристов</h2>
+			<p><span class="reason-number">--№5--</span></p>
+			<p class="main-description">Большинство едет в гранд каньон  и толпится там</p>
 		</section>
-		<section> 
-			<h2 class="main-title">Мало  туристов</h2>
-			<p class="main-number"> -№5-</p>
-			<p class="main-description"> Большинство едет в гранд каньон  и толпится там</p>
-		</section>
+
 	<!--форма поиска гостиниц -->
-		<section>
+		<section class="registration-form">
 			<h2 class="main-ask">Заинтересовались?</h2> 
 			<p class="main-information">Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
 		</section>
@@ -86,28 +90,29 @@
 			<h2 class="form-title">Поиск гостиницы в седоне</h2> 
 				<p>
 					<label>Дата заезда:</label>
-					<input type="date" > 
+					<input type="date"> 
 				</p>
 				<p>
 					<label>Дата выезда:</label>
-					<input type= "date" > 
+					<input type="date"> 
 				</p>
 				<p>
 					<label for="adults">Взрослые:</label>
-					<input type="number" > 
+					<input type="number"> 
 				</p>
 				<p>
 					<label for="kids">Дети:</label>
-					<input type="number" > 
+					<input type="number"> 
 				</p>
-				<p><a href="#"/>Найти</p>
+				<p><a href="#">Найти</a></p>
 			</form>
 		</div>
 	</main>
+
 	<!--Футер сайта -->
-	<footer class="footer"> 
-        <div>
-            <p class="footer-description">#Visitsedona</p>
+	<footer class="main-footer"> 
+        <div class="">
+            <a class="footer-description" href="#">#Visitsedona</a>
         </div>
 		<div class="footer-social">	
 			<ul class="footer-list"> 

@@ -23,7 +23,7 @@
 	<!--1 Форма-->
 		<div class="catalog-form">
 			<form action="#" method="post" class="house-serch">	
-				<div>
+				<div class="infastructur">
 					<h2>Инфаструктура</h2>
 					<label for="checkbox-1">Бассейн</label>
 						<input type="checkbox" name="option1" value="pool"/>
@@ -33,17 +33,99 @@
 						<input type="checkbox" name="option3" value="wi-fi"/>
 				</div>
 	<!--2 Форма-->
-				<div>
-					<h2>Тип жилья</h2>
+				<div class="housing-type">
+					<h2>housing-type</h2>
 					<label for="checkbox-4">Гостиница</label>
-					<input type="checkbox" name="option4" value="hotel"/>
+						<input type="checkbox" name="option4" value="hotel"/>
 					<label for="checkbox-5">Мотель</label>
-					<input type="checkbox" name="option5" value="motel"/>
+						<input type="checkbox" name="option5" value="motel"/>
 					<label for="checkbox-6">Апартаменты</label>
-					<input type="checkbox" name="option6" value="apartament"/>
+						<input type="checkbox" name="option6" value="apartament"/>
 				</div>
 			</div>
 			</form>
+<!--Блок сортировки-->
+		<section>
+			<h2>Найдено:3</h2>
+			<ul>
+				<h3>Сортировка:</h3>
+				<li><a href="">Цене</a></li>
+				<li><a href="">По типу</a></li>
+				<li><a href="">По рейтенгу</a></li>
+			</ul>
+		</section>
+
+<!--1 ВАРИАНТ БЛОКА-->
+
+		<article class="catalog">
+			<ul class="catalog-list">
+				<li>
+					<h2>
+						<a href="#" class="info-about-hotel">
+							<span catalog-title>Amara Resort & Spa</span>
+						</a>
+					</h2>
+					<span class="catalo-place">Гостиница</span>
+					<span class="catalog-price">От 4000</span>
+					<div class="button">
+						<a href="#" class="more-info">Подробнее</a>
+						<a href="#" class="booked">Забронировать</a>
+					</div>		
+					<div class="rating">
+					<!-- Тег для звездочек -->
+						<p>Рейтинг 8.5</p>
+					</div>	
+				</li>
+			</ul>
+		</article>
+
+		<article class="catalog">
+			<ul class="catalog-list">
+				<li>
+					<h2>
+						<a href="#" class="info-about-hotel">
+							<span catalog-title>Desert quail inn</span>
+						</a>
+					</h2>
+					<span class="catalo-place">Мотель</span>
+					<span class="catalog-price">От 3000</span>
+					<div class="button">
+						<a href="#" class="more-info">Подробнее</a>
+						<a href="#" class="booked">Забронировать</a>
+					</div>		
+					<div class="rating">
+					<!-- Тег для звездочек -->
+						<p>Рейтинг 8.9</p>
+					</div>	
+				</li>
+			</ul>
+		</article>
+
+		<article class="catalog">
+			<ul class="catalog-list">
+				<li>
+					<h2>
+						<a href="#" class="info-about-hotel">
+							<span catalog-title>Villas at poco diablo</span>
+						</a>
+					</h2>
+					<span class="catalo-place">Апартаменты</span>
+					<span class="catalog-price">От 2000</span>
+					<div class="button">
+						<a href="#" class="more-info">Подробнее</a>
+						<a href="#" class="booked">Забронировать</a>
+					</div>		
+					<div class="rating">
+					<!-- Тег для звездочек -->
+						<p>Рейтинг 9.2</p>
+					</div>	
+				</li>
+			</ul>
+		</article>
+
+
+<!--2 ВАРИАНТ БЛОКА -->
+
 
 			<!--1 блок отелей-->
 		<article class="hotels-info">
@@ -57,10 +139,11 @@
 				<a href="#" class="more-info">Подробнее</a>
 				<a href="#" class="booked">Забронировать</a>
 			</div>
-			<div class="reating">
+			<div class="rating">
 				<!-- Тег для звездочек -->
 				<p>Рейтинг 8.5</p>
 			</div>
+
 		</article>
 		<!--2 блок отелей-->
 		<article class="hotels-info">
@@ -74,7 +157,7 @@
 				<a href="#" class="more-info">Подробнее</a>
 				<a href="#" class="booked">Забронировать</a>
 			</div>
-			<div class="reating">
+			<div class="rating">
 				<!-- Тег для звездочек -->
 				<p>Рейтинг 9,2</p>
 			</div>
@@ -86,17 +169,17 @@
 			</div>
 			<h2><a href="#" class="info-about-hotel">Villas at poco diablo</a></h2>
 			<div class="about-hotels">
-				<span>Апартоменты</span>
+				<span>Апартаменты</span>
 				<span>От 2000</span>
 				<a href="#" class="more-info">Подробнее</a>
 				<a href="#" class="booked">Забронировать</a>
 			</div>
-		
-			<div class="reating">
+			<div class="rating">
 				<!-- Тег для звездочек -->
 				<p>Рейтинг 9,2</p>
 			</div>
 		</article>
+
 	</main>
 		<!--Футер страницы-->
 	<footer class="footer"> 

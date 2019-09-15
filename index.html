@@ -97,22 +97,31 @@
 		<section class="registration-form">
 			<h2>Заинтересовались?</h2> 
 			<p>Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-			<a href="#" class="form-call">Поиск гостиницы в седоне</a> 
+			<button >Поиск гостиницы в седоне</button> 
 		</section>
-		<div class="main-form"> 
+		<div class="visually-hidden"> 
 			<form action="#" method="post" class="main-search">
-					<label>Дата заезда:</label>
-						<input type="date"> 	
-					<label>Дата выезда:</label>
-						<input type="date"> 				
+					<label for="arrival-date">Дата заезда:</label>
+						<input type="date" name="arrival-date" id="arrival-date"> 	
+					<label for="departure-date">Дата выезда:</label>
+						<input type="date" name="departure-date" id="departure-date"> 				
 					<label for="adults">Взрослые:</label>
-						<input type="number"> 				
+						<input type="number" name="adults" id="adults"> 				
 					<label for="kids">Дети:</label>
-						<input type="number"> 
+						<input type="number" name="kids" id="kids"> 
 					<input type="submit" value="Найти">
 			</form>
 		</div>
+
+		<!--Карта-->
+		<section>
+			<img src="img/map.jpg" width="780" height="560" alt="Наше местаположение">
+		</section>
+
+
 	</main>
+
+
 
 	<!--Футер сайта -->
 	<footer class="footer"> 

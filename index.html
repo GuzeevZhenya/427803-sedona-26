@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Sedona</title>
+	 <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <!--Хэдер сайта-->
@@ -37,7 +40,7 @@
 				<p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
 			</div>
 			<div class="reasons-image">
-				<img src="img/hotel.jpg" width="240" heigth="120" alt="Ресторан города"> 
+				<img src="img/hotel.jpg" width="800" height="256" alt="Ресторан города"> 
 			</div>
 		</section>
 
@@ -68,9 +71,8 @@
 				<p>Да, по нему можно пройтись! если конечно вы осмелитесь</p>
 			</div>
 			<div class="reasons-image">
-				<img src="img/devil-bridge.jpg" width="240" heigth="120" alt="Мост дьявола">
+				<img src="img/devil-bridge.jpg" width="800" height="256" alt="Мост дьявола">
 			</div>
-		
 		</section>
 
 	<!--Четвертый блок main -->
@@ -102,21 +104,29 @@
 		</section>
 		<div class="visually-hidden"> 
 			<form action="#" method="post" class="main-search">
+				<p class="appointment-item">
 					<label for="arrival-date">Дата заезда:</label>
 						<input type="date" name="arrival-date" id="arrival-date"> 	
+				</p>
+				<p class="appointment-item">
 					<label for="departure-date">Дата выезда:</label>
-						<input type="date" name="departure-date" id="departure-date"> 				
+						<input type="date" name="departure-date" id="departure-date">
+				</p>
+				<p class="appointment-item"> 				
 					<label for="adults">Взрослые:</label>
-						<input type="number" name="adults" id="adults"> 				
+						<input type="number" name="adults" id="adults"> 
+				</p>
+				<p class="appointment-item">				
 					<label for="kids">Дети:</label>
 						<input type="number" name="kids" id="kids"> 
 					<input type="submit" value="Найти">
+				</p>
 			</form>
 		</div>
 
 		<!--Карта-->
 		<section class="map">
-			<img src="img/map.jpg" width="780" height="560" alt="Наше местаположение">
+			<img src="img/map.png" width="780" height="560" alt="Наше местаположение">
 		</section>
 
 
@@ -134,16 +144,17 @@
 				<li class="footer-links">
 					<a href="#">
 						<img src="img/twitter.svg" width="50" height="20" alt="twitter">
+						Twitter
 					</a>
 				</li>
 				<li class="footer-links">
 					<a href="#">
-						<img src="img/fb-icon.svg" width="100" height="50" alt="facebook">
+						<img src="img/fb-icon.svg" width="100" height="50" alt="facebook">Facebook
 					</a>
 				</li>
 				<li class="footer-links">
 					<a href="#">
-						<img src="img/youtube.svg" width="50" height="20" alt="youtube">
+						<img src="img/youtube.svg" width="50" height="20" alt="youtube">Youtube
 					</a>
 				</li>
 			</ul>

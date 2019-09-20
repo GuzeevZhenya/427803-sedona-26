@@ -1,0 +1,95 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	line-height: 26px;
+	font-size: 14px;
+	color:#000000;
+	max-width: 1240px;
+	max-height: 2750px;
+	background-color: #ffffff;
+	position: absolute;
+}
+
+
+}
+div{
+	width: 400px;
+}
+ 
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	display: inline;
+	margin: 50px;
+}
+
+.nav-list{
+	font-weight: bold;
+	text-align: center;
+	background-color:white;	
+}
+.nav-list a:hover,
+.nav-list a:focus{
+	background-color:#242424;
+}
+
+.about-city{
+	text-align: center;
+}
+
+.reasons-description{
+	display: inline-block;
+	text-align: center;
+	vertical-align: bottom;
+	height: 256px;
+	width: 400px;
+	background-color: #81b3d2;
+}
+
+.reasons-image{
+	width: 800;
+	height: 255;
+	display: inline-block;
+}
+
+.advantages{
+  background-color: #f8f5f2;
+}
+
+.appointment-item{
+	width: 346px;
+	height: 38px;
+	text-align: center;
+}
+.appointment-item input{
+	border: 2px solid #000000;
+}
+
+.appointment-item input:focus{
+	border-color:blue;
+}
+.visually-hidden{
+	text-align: center;
+}
+ 
+.advantages-description{
+	text-align: center;
+	display: inline-block;
+	height: 330px;
+	width: 400px;
+
+}
+
+.registration-form{
+	text-align: center;
+ }
+
+
+.footer-social{ 
+	text-align: center;
+}

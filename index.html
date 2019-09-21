@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Sedona</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <!--Хэдер сайта-->
@@ -31,7 +34,7 @@
     <!-- Первый блок о городе-->
 	<main> 
 		<section class="reasons"> 
-			<div class="reasons-description">
+			<div class="reasons-descriptionblue">
 				<h2>Настоящий городок</h2>
 				<span class="reasons-number">- №1 -</span>
 				<p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
@@ -62,7 +65,7 @@
 
 	<!--третий блок про мост дьявола -->
 		<section class="reasons"> 
-				<div class="reasons-description">
+				<div class="reasons-descriptionblue">
 				<h2>Там есть мост дьявола</h2>
 				<span class="reasons-number">- №2 -</span>
 				<p>Да, по нему можно пройтись! если конечно вы осмелитесь</p>
@@ -70,7 +73,6 @@
 			<div class="reasons-image">
 				<img src="img/devil-bridge.jpg" width="240" heigth="120" alt="Мост дьявола">
 			</div>
-		
 		</section>
 
 	<!--Четвертый блок main -->
@@ -102,26 +104,34 @@
 		</section>
 		<div class="visually-hidden"> 
 			<form action="#" method="post" class="main-search">
+				<p class="appointment-item">
 					<label for="arrival-date">Дата заезда:</label>
 						<input type="date" name="arrival-date" id="arrival-date"> 	
+				</p>
+				<p class="appointment-item">
 					<label for="departure-date">Дата выезда:</label>
-						<input type="date" name="departure-date" id="departure-date"> 				
+						<input type="date" name="departure-date" id="departure-date">
+				</p>
+				<p class="appointment-item"> 				
 					<label for="adults">Взрослые:</label>
-						<input type="number" name="adults" id="adults"> 				
+						<input type="number" name="adults" id="adults"> 
+				</p>
+				<p class="appointment-item">				
 					<label for="kids">Дети:</label>
-						<input type="number" name="kids" id="kids"> 
-					<input type="submit" value="Найти">
+						<input type="number" name="kids" id="kids">
+				</p>
+				<p class="button"> 
+					<button type="submit">Найти</button>
+				</p>
 			</form>
 		</div>
 
-		<!--Карта-->
+<!--Карта-->
 		<section class="map">
 			<img src="img/map.png" width="780" height="560" alt="Наше местаположение">
 		</section>
-
-
+		
 	</main>
-
 
 
 	<!--Футер сайта -->
@@ -138,7 +148,7 @@
 				</li>
 				<li class="footer-links">
 					<a href="#">
-						<img src="img/fb-icon.svg" width="100" height="50" alt="facebook">
+						<img src="img/fb-icon.svg" width="50" height="20" alt="facebook">
 					</a>
 				</li>
 				<li class="footer-links">

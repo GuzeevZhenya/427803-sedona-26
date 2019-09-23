@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Sedona</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style-catalog.css">
 </head>
 <body>
 	<header class="header">  
@@ -24,58 +27,77 @@
 		<section class="catalog-form">
 			<form action="#" method="post" class="house-serch">	
 				<div class="infastructur">
-					<h2>Инфаструктура</h2>
-					<label>
-						<input type="checkbox" name="checkbox1" value="pool"/>
-						Бассейн
-					</label>
-
-					<label>
-						<input type="checkbox" id="checkbox2" name="checkbox2" value="parking"/>
-						Парковка
-					</label>
-
-					<label>
-						<input type="checkbox" id="checkbox3" name="checkbox3" value="wi-fi"/>
-						WI-FI
-					</label>
+					<h2>Инфаструктура:</h2>
+					<p class="appointment-item">
+						<label>
+							<input type="checkbox" name="checkbox1" value="pool" checked="" />
+							Бассейн
+						</label>
+					</p>
+					<p class="appointment-item">
+						<label>
+							<input type="checkbox" id="checkbox2" name="checkbox2" value="parking"/>
+							Парковка
+						</label>
+					</p>
+					<p class="appointment-item">
+						<label>
+							<input type="checkbox" id="checkbox3" name="checkbox3" value="wi-fi"/>
+							WI-FI
+						</label>
+					</p>
 				</div>
 	<!--2 Форма-->
 				<div class="housing-type">
-					<h2>housing-type</h2>
-					<label>
-						<input type="checkbox" name="checkbox4" value="hotel"/>
-						Гостиница
-					</label>
-					<label>
-						<input type="checkbox" name="checkbox5" value="motel"/>
-						Мотель
-					</label>
-					<label >
-						<input type="checkbox"  name="checkbox5" value="apartament"/>
-						Апартаменты
-					</label>
+					
+					<h2>Тип жилья:</h2>
+					<p class="appointment-item">
+						<label>
+							<input type="checkbox" name="checkbox4" value="hotel" checked="" />
+							Гостиница
+						</label>
+					</p>
+					<p class="appointment-item">
+						<label>
+							<input type="checkbox" name="checkbox5" value="motel" checked="" />
+							Мотель
+						</label>
+					</p>
+					<p class="appointment-item">
+						<label >
+							<input type="checkbox"  name="checkbox5" value="apartament" checked="" />
+							Апартаменты
+						</label>
+					</p>
 				</div>
+
 				<!--Слайдер	-->
 				<div class="range">
 					<h2>Стоимость в сутки(P)</h2>
-						<input type="text" name="price-serch" value="От 0">
-						<input type="text" name="price-serch" value="До 3000">
-						<label for="ran"></label>
-						<input type="range">
+						<p>
+							<input type="text" name="price-serch" value="От 0">
+						</p>
+						<p>
+							<input type="text" name="price-serch" value="До 3000">
+						</p>
+							<label for="ran"></label>
+							<input type="range">
+						<p>
+							<button type="subset">Показать</button>
+						</p>
 				</div>
 			</form>
 		</section>
 <!--Блок сортировки-->
 		<section class="sorting">
 			<h2>Найдено:3</h2>
-			<ul>
+			<ul class="sorting-by">
 				<h3>Сортировка:</h3>
 				<li><a href="#">Цене</a></li>
 				<li><a href="#">По типу</a></li>
 				<li><a href="#">По рейтенгу</a></li>
 			</ul>
-			<ul>
+			<ul class="sorting-button">
 				<li><a href="#">ВВЕРХ</a></li>
 				<li><a href="#">ВНИЗ</a></li>
 			</ul>
@@ -85,19 +107,19 @@
 			<!--1 блок отелей-->
 		<article class="hotels-info">
 			<div class="hotel-picture">
-				<img src="img/amara.jpg">
+				<img src="img/amara.jpg" widt="135" height="90">
 			</div>
 			<div class="about-hotels">
-			<h2><a href="#">Amara Resort & Spa</a></h2>
+				<h2><a href="#">Amara Resort & Spa</a></h2>
 				<span>Гостиница</span>
 				<span>От 4000</span>
 				<a href="#" class="more-info">Подробнее</a>
 				<a href="#" class="booked">Забронировать</a>
-			</div>
-			<div class="rating">
-				  <img src="img/star.svg" width="20" heigth="10" alt="stars">
+				<div class="rating">
+				<img src="img/star.svg" width="20" heigth="10" alt="stars">
 				<p>Рейтинг 8.5</p>
 			</div>
+			</div>	
 
 		</article>
 		<!--2 блок отелей-->
@@ -111,10 +133,10 @@
 				<span>От 3000</span>
 				<a href="#" class="more-info">Подробнее</a>
 				<a href="#" class="booked">Забронировать</a>
-			</div>
-			<div class="rating">
+				<div class="rating">
 				  <img src="img/star.svg" width="20" heigth="10" alt="stars">
 				<p>Рейтинг 8.9</p>
+			</div>
 			</div>
 		</article>
 		<!--3 блок отелей-->
@@ -122,21 +144,21 @@
 			<div class="hotel-picture">
 				<img src="img/villas.jpg">
 			</div>
-			<h2><a href="#">Villas at poco diablo</a></h2>
 			<div class="about-hotels">
+				<h2><a href="#">Villas at poco diablo</a></h2>
 				<span>Апартаменты</span>
 				<span>От 2000</span>
 				<a href="#" class="more-info">Подробнее</a>
 				<a href="#" class="booked">Забронировать</a>
-			</div>
-			<div class="rating">
+				<div class="rating">
 				  <img src="img/star.svg" width="20" heigth="10" alt="stars">
-				<p>Рейтинг 9,2</p>
+				  <p>Рейтинг 9,2</p>
+				</div>
 			</div>
 		</article>
-
 	</main>
-	<!--Футер сайта -->
+
+		<!--Футер сайта -->
 	<footer class="footer"> 
         <div class="footer-link">
             <a class="footer-description" href="#">#Visitsedona</a>
@@ -146,11 +168,12 @@
 				<li class="footer-links">
 					<a href="#">
 						<img src="img/twitter.svg" width="50" height="20" alt="twitter">
+					
 					</a>
 				</li>
 				<li class="footer-links">
 					<a href="#">
-						<img src="img/fb-icon.svg" width="100" height="50" alt="facebook">
+						<img src="img/fb-icon.svg" width="50" height="20" alt="facebook">
 					</a>
 				</li>
 				<li class="footer-links">

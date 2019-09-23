@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans", Arial, sans-serif;	
+	text-transform: uppercase; 
+}
+
+.nav-list{
+	font-size: 14px;
+	line-height: 26px;
+	list-style-type: none;	
+}
+
+.nav-list a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav-list a:hover{
+	color: #81b4d3;
+}
+
+.nav-list a:focus{
+	color: #cacaca;
+}
+
+
+.catalog-form{
+	background-color: #658cb3;
+}
+
+.catalog-form h2{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+}
+
+.catalog-form p{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+}
+
+.sorting{
+	border-bottom: 1px solid black;
+	border-bottom-color: #b1b1b1;
+}
+
+.sorting h2{
+	font-weight: bold;
+	font-stretch: 21px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.sorting h3{
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.sorting ul{
+	list-style-type: none;
+}
+
+.sorting a{
+	text-decoration: none;
+	color: #b1b1b1;
+}
+
+.sorting-by li{
+	border-bottom: 1px dotted;
+}
+
+.sorting-by a:hover{
+	color: #81b4d3;
+}
+
+.sorting-by a:focus{
+	color: #000000;
+}
+
+.sorting-button a:hover{
+	color: #000000;
+}
+
+.sorting-button a:focus{
+	color: #81b4d3;
+}
+
+
+.about-hotels{
+	border-bottom: 1px solid black;
+	border-bottom-color: #b1b1b1;
+}
+
+.about-hotels h2 a{
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.about-hotels h2 a:hover{
+	color: #81b3d2;
+}
+
+.about-hotels h2 a:focus{
+	color: #b2b2b2;
+}
+
+
+.about-hotels span{
+	color: #333333;
+	font-size: 14px;
+	line-height: 26px;
+	line-height:normal;
+}
+
+.about-hotels a{
+	text-decoration: none;		
+}
+
+
+.about-hotels .more-info{
+	background-color: #81b3d2;
+	color: #ffffff;
+	line-height: 21px;
+	font-size: 14px;
+}
+
+.about-hotels .more-info:hover{
+	background-color: #669ec0;
+
+}
+
+.about-hotels .more-info:focus{
+	background-color: #5496bd;
+	color: #88b6d1;
+}
+
+
+.about-hotels .booked{
+	background-color: #766357;
+	color: #ffffff;
+	line-height: 21px;
+	font-size: 14px;
+}
+
+.about-hotels .booked:hover{
+	background-color: #604e43;
+}
+
+.about-hotels .booked:focus{
+	background-color: #604e43;
+	color: #857871;
+}
+
+
+
+.footer-list{
+	list-style-type: none;
+}
+
+.footer-description{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.footer-links a{
+	background-color: #81b3d2;	
+}

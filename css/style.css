@@ -3,13 +3,14 @@ body{
 	padding: 0;
 	font-family: "PT Sans", Arial, sans-serif;	
 	text-transform: uppercase;
-	line-height: 26px;
-
+	
 }
 
 .nav-list{
 	font-size: 14px;
 	list-style-type: none;	
+	line-height: 26px;
+	font-weight: bold;
 }
 
 .nav-list a{
@@ -18,7 +19,7 @@ body{
 }
 
 .nav-list a:hover{
-	color: #81b4d3
+	color: #81b4d3;
 }
 
 .nav-list a:focus{
@@ -28,11 +29,16 @@ body{
 
 .about-city h1{
 	font-size: 21px;
-	color: #000000; 
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold; 
 }
 
 .about-city p{
 	color: #333333; 
+	font-size:14px;
+	line-height: 26px;
+	font-weight: normal;
 }
 
 .reasons-descriptionblue{
@@ -62,11 +68,13 @@ body{
 .advantages-description p{	 
 	font-size: 14px;
 	line-height: 21px;
+	color: #696969;
 }
  
 .advantages-description h2{
 	font-size: 21px;
 	line-height: 21px;
+	color: #000000;
 }
  
 .reasons-description{
@@ -102,12 +110,15 @@ body{
 	line-height: 26px;
 }
 
+
 .registration-form a:hover{
-	color: #81b4d3
+	color: #ffffff;
+	background-color: #604e43;
 }
 
 .registration-form a:focus{
-	color: #cacaca;
+	color: #857871;
+	background-color: #503e33;
 }
 
 .appointment-item{
@@ -128,10 +139,16 @@ body{
 	text-decoration: none;
 	color: #000000;
 	font-weight: bold;
-
 }
 
 .footer-links a{
-	background-color: #81b3d2;
-	
+	background-color: #81b3d2;	
 }
+
+.footer-links a:hover{
+	background-color: #669ec0;
+}
+
+.footer-links a:focus{
+	background-color: #5496bd;
+	

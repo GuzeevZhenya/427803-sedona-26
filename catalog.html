@@ -8,14 +8,16 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+
+  <div class="wrapper">
 	<header class="header">  
 		<nav class="nav">
-			<a href="index.html" class="logo">
-				<img src="img/logo-sedona.svg" width="120" heigth="60" alt="Логотип Sedona">
-			</a>
 			<ul class="nav-list">
 				<li><a href="#" class="nav-item">Информация</a></li>
 				<li><a href="#" class="nav-item">Фото и видео</a></li>
+				<a href="index.html" class="logo">
+					<img src="img/logo-sedona.svg" width="120" heigth="60" alt="Логотип Sedona">
+				</a>
 				<li><a href="#" class="nav-item">Карта штата</a></li>
 				<li><a class="nav-item">Гостиницы</a></li>
 			</ul>
@@ -28,24 +30,18 @@
 			<form action="#" method="post" class="house-serch">	
 				<div class="infastructur">
 					<h2>Инфаструктура:</h2>
-					<p class="appointment-item">
 						<label>
 							<input type="checkbox" name="checkbox1" value="pool" checked="" />
 							Бассейн
 						</label>
-					</p>
-					<p class="appointment-item">
 						<label>
 							<input type="checkbox" id="checkbox2" name="checkbox2" value="parking"/>
 							Парковка
 						</label>
-					</p>
-					<p class="appointment-item">
 						<label>
 							<input type="checkbox" id="checkbox3" name="checkbox3" value="wi-fi"/>
 							WI-FI
 						</label>
-					</p>
 				</div>
 	<!--2 Форма-->
 				<div class="housing-type">
@@ -67,17 +63,11 @@
 				<!--Слайдер	-->
 				<div class="range">
 					<h2>Стоимость в сутки(P)</h2>
-						<p>
-							<input type="text" name="price-serch" value="От 0">
-						</p>
-						<p>
-							<input type="text" name="price-serch" value="До 3000">
-						</p>
-							<label for="ran"></label>
-							<input type="range">
-						<p>
-							<button type="subset">Показать</button>
-						</p>
+						<input type="text" name="price-serch" value="От 0">
+						<input type="text" name="price-serch" value="До 3000">
+						<label for="ran"></label>
+						<input type="range">
+						<button type="subset">Показать</button>
 				</div>
 			</form>
 		</section>
@@ -183,6 +173,7 @@
             </a>
         </div>
 	</footer>
+</div>
 </body>
 </html>
 	

@@ -4,6 +4,7 @@ body{
 	font-family: "PT Sans", Arial, sans-serif;	
 	text-transform: uppercase;
 	background-color: #f2f2f2;
+	box-sizing: border-box;
 }
 
 .wrapper{
@@ -44,6 +45,13 @@ body{
 	color: #cacaca;
 }
 
+.about-city{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 216px;
+}
+
 .about-city h1{
 	font-size: 21px;
 	line-height: 26px;
@@ -58,9 +66,16 @@ body{
 	font-weight: normal;
 }
 
+.reasons{
+	display: flex;
+	text-align: center;
+	width: 1200px;
+	height: 256px;
+}
+
 .reasons-descriptionblue{
 	background-color: #81b4d3;
-	flex: 1;
+	
 }
 
 .reasons-descriptionblue {
@@ -74,13 +89,26 @@ body{
 }
 
 .reasons-descriptionblue h2{
+	padding-top: 50px;
+	padding-bottom: 29px;
 	line-height: 26px;
 	font-size: 	21px;
 	font-weight: bold;	
 }
 
 .advantages{
+	display: flex;
+	height: 330px;
 	color: #333333;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+	width: 1200px;
+}
+
+.advantages-description{
+	 
+	max-width: 253px;
 }
 
 .advantages-description p{	 
@@ -94,22 +122,42 @@ body{
 	line-height: 21px;
 	color: #000000;
 }
+
+.reasons-short{
+	display: flex;
+	color: #333333;	
+	text-align: center;
+	
+
+}
  
 .reasons-description{
 	background-color: #eeeeee;
+	height: 256px;
+	width: 400px;
+
 } 
  
 .reasons-description p{
 	line-height: 21px;
-	font-size: 	14px;
+	font-size: 14px;
 	font-weight: normal;
-	color: #333333;	
+	
 }
 
 .reasons-description h2{
 	line-height: 21px;
-	font-size: 	21px;
+	font-size: 21px;
 	font-weight: bold;	
+	 
+}
+
+.registration-form{
+	height: 291px;
+	align-items: center;
+	text-align: center;
+	width: 1200px;
+	border: 1px solid black;
 }
 
 .registration-form p{

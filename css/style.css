@@ -1,10 +1,13 @@
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
 body{
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans", Arial, sans-serif;	
 	text-transform: uppercase;
 	background-color: #f2f2f2;
-	box-sizing: border-box;
+	
 }
 
 .wrapper{
@@ -14,26 +17,54 @@ body{
 	background-color: white;
 }
 
+
+
+.nav{
+	display: flex;
+	align-items: center;
+}
+.logo{
+
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%)
+	
+}
+
 .nav-list{
+	display: flex;
 	font-size: 14px;
 	list-style-type: none;	
 	line-height: 26px;
 	font-weight: bold;	
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	margin-top: 0;
 	padding-left: 0;
 }
 
 .nav-list li{
 	text-align: center;
+	width: 240px;
+}
+
+.nav-list li:nth-child(2){
+	margin-right: 240px;
+}
+
+.nav-list li:first-child{
+	text-align: left;
+	padding-left: 72px;
+}
+
+.nav-list li:last-child{
+	text-align: left;
+	padding-right: 72px;
 }
 
 
 .nav-list a{
 	text-decoration: none;
 	color: #000000;
+
 
 }
 
@@ -46,118 +77,218 @@ body{
 }
 
 .about-city{
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 216px;
+	width: 1200px;
+	text-align: center;
+	padding-top: 61px;	
+	padding-right: 	356px;
+	padding-left: 355px;
+	padding-bottom: 56px;
 }
 
-.about-city h1{
+.about-city h2{
+	margin: 0px;
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold; 
+	padding-bottom: 38px;
 }
 
 .about-city p{
+	margin: 0px;
 	color: #333333; 
 	font-size:14px;
 	line-height: 26px;
 	font-weight: normal;
+ 
+}
+
+.reasons-image img {
+	display: block;
+	 
 }
 
 .reasons{
 	display: flex;
 	text-align: center;
 	width: 1200px;
-	height: 256px;
-}
-
-.reasons-descriptionblue{
-	background-color: #81b4d3;
 	
 }
 
-.reasons-descriptionblue {
+.reasons-city{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #81b4d3;
+	width: 400px;
 	color: white;
+	padding: 46px 60px 60px 60px;
+	justify-content: space-around;
 }
 
-.reasons-descriptionblue p{
+
+.reasons-city p{
+	margin: 0px;
 	line-height: 21px;
 	font-size: 	14px;
 	font-weight: normal;	
+	width: 282px;
+	text-align: center;
+ 
 }
 
-.reasons-descriptionblue h2{
-	padding-top: 50px;
-	padding-bottom: 29px;
+.reasons-city h2{
+	margin: 0px;	
+	width: 123px;
 	line-height: 26px;
 	font-size: 	21px;
 	font-weight: bold;	
 }
 
 .advantages{
+	margin: 0px;
 	display: flex;
-	height: 330px;
+	align-items: top;
 	color: #333333;
-	justify-content: space-around;
 	text-align: center;
-	align-items: center;
-	width: 1200px;
+	width: 1200px;	
 }
 
-.advantages-description{
-	 
-	max-width: 253px;
+.advantages-description{ 
+	text-align: center;
+	width: 400px;
+	padding-top: 60px;
+	padding-right: 63px;
+	padding-bottom: 87px;
+	padding-left: 73px;
 }
 
-.advantages-description p{	 
+ 
+.advantages-description p{
+	margin: 0px;	
+	text-align: center; 
 	font-size: 14px;
 	line-height: 21px;
 	color: #696969;
 }
+
+.advantages-description:nth-child(2){
+	padding-right: 60px;
+	padding-left: 58px;
+}
+
+
+
  
 .advantages-description h2{
+	margin: 0px;
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
+	padding-bottom: 32px;
+	padding-top: 32px;
+}
+
+
+.reasons-bridge{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #81b4d3;
+	width: 400px;
+	color: white;
+	padding: 49px 49px 66px 48px;
+	justify-content: space-between;
+}
+
+
+.reasons-bridge h2{
+	margin: 0px;
+	width: 156px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 	21px;
+	font-weight: bold;	
+}
+
+.reasons-bridge p{
+	margin:0px;
+	min-width: 318px;
+	text-align: center;
+	margin: 0px;
+	line-height: 21px;
+	font-size: 	14px;
+	font-weight: normal;
 }
 
 .reasons-short{
 	display: flex;
+	width: 1200px;
 	color: #333333;	
 	text-align: center;
-	
-
+	justify-content: center;
 }
  
 .reasons-description{
 	background-color: #eeeeee;
-	height: 256px;
 	width: 400px;
+	padding-top: 50px;
+	padding-left: 95px;
+	padding-bottom: 65px;
+	padding-right: 76px;
+}
 
-} 
+
  
 .reasons-description p{
+	margin: 0px;
 	line-height: 21px;
 	font-size: 14px;
 	font-weight: normal;
 	
 }
 
+.reasons-description:nth-child(2){
+	padding-right: 70px;
+	padding-left: 69px;
+	}
+
+.reasons-description span{
+	display: inline-block;
+	margin-top: 29px;
+	margin-bottom: 32px;
+}
+
 .reasons-description h2{
+	margin: 0px  auto;
 	line-height: 21px;
 	font-size: 21px;
 	font-weight: bold;	
-	 
+	width: 120px;
+	  
 }
 
+
+
+
 .registration-form{
-	height: 291px;
-	align-items: center;
-	text-align: center;
+	
 	width: 1200px;
-	border: 1px solid black;
+	text-align: center;
+
+	
+}
+
+.form-description{
+	margin: 0px auto;
+	width: 576px;
+	text-align: center;
+
+
 }
 
 .registration-form p{
@@ -165,7 +296,11 @@ body{
 	line-height: 21px;
 	font-size: 	14px;
 	font-weight: normal;
+	 
+
 }
+
+
 
 .registration-form a{
 	background-color: #766357;
@@ -174,12 +309,17 @@ body{
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 26px;
+
 }
+
+ 
+ 
 
 
 .registration-form a:hover{
 	color: #ffffff;
 	background-color: #604e43;
+
 }
 
 .registration-form a:focus{
@@ -190,6 +330,7 @@ body{
 .visually-hidden{
 	background-color: #f2f2f2;
 	font-weight: bold;
+	position: absolute;
 }
 
 .button{
@@ -231,6 +372,12 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.footer{
+	background: rgba(255, 255, 255, 0.7);
+	margin-top: -120px;
+	position: relative;
 }
 
 .footer-list{

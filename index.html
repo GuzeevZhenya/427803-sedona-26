@@ -10,41 +10,38 @@
 <body>
     <!--Хэдер сайта-->
     <div class="wrapper">
+    	
 		<header class="header">  
 			<nav class="nav">
+				<a class="logo">
+					<img src="img/logo-sedona.svg" width="120" heigth="60" alt="Логотип Sedona">
+				</a>
 				<ul class="nav-list">
 					<li><a href="#" class="nav-item">Информация</a></li>
-					<li><a href="#" class="nav-item">Фото и видео</a></li>
-					<li>
-						<a class="logo">
-							<img src="img/logo-sedona.svg" width="120" heigth="60" alt="Логотип Sedona">
-						</a>
-					</li>	
+					<li><a href="#" class="nav-item">Фото и видео</a></li>	
 					<li><a href="#" class="nav-item">Карта штата</a></li>
 					<li><a href="catalog.html" class="nav-item">Гостиницы</a></li>
 				</ul>
 			</nav>
-				<!--<img src="img/intro-welcome.svg" width="240" height="120" alt="Welcome-sedona">
-				
-				<img src="img/polygon.png" width="100" heigth="50" alt="Полигон">	
-    <!-- О городе -->
-    <img src="img/background-photo.jpg" width="100" heigth="100" alt="Главная картинка страницы">	
-				<section class="about-city">
-					<h2>Седона - небольшой городок в аризоне,заслуживающий большего</h2>
-					<p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
-				</section>
 		</header>
 	
-    <!-- Первый блок о городе-->
+
 	<main> 
+ <!-- О городе -->
+		<img src="img/background-photo.jpg" width="100" heigth="100" alt="Главная картинка страницы">	
+		<section class="about-city">
+			<h2>Седона - небольшой городок в аризоне, заслуживающий большего</h2>
+			<p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+		</section>
+   <!-- Первый блок о городе-->
 		<section class="reasons"> 
-			<div class="reasons-descriptionblue">
+			<div class="reasons-city">
 				<h2>Настоящий городок</h2>
 				<span class="reasons-number">- №1 -</span>
 				<p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
 			</div>
 			<div class="reasons-image">
-				<img src="img/hotel.jpg" width="800" height="256" alt="Ресторан города"> 
+				<img src="img/hotel.jpg" width="800" height="263" alt="Ресторан города"> 
 			</div>
 		</section>
 
@@ -72,7 +69,7 @@
 			<div class="reasons-image">
 				<img src="img/devil-bridge.jpg" width="800" height="256" alt="Мост дьявола">
 			</div>
-			<div class="reasons-descriptionblue">
+			<div class="reasons-bridge">
 				<h2>Там есть мост дьявола</h2>
 				<span class="reasons-number">- №2 -</span>
 				<p>Да, по нему можно пройтись! если конечно вы осмелитесь</p>
@@ -101,10 +98,13 @@
 		
 	<!--форма поиска гостиниц -->
 		<section class="registration-form">
-			<h2>Заинтересовались?</h2> 
-			<p>Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			<div class="form-description">
+				<h2>Заинтересовались?</h2> 
+				<p>Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			</div>
 			<a href="#" class="form-call">Поиск гостиницы в седоне</a> 
 		</section>
+		
 		<div class="visually-hidden"> 
 			<form action="#" method="post" class="main-search">
 					<label for="arrival-date">Дата заезда:</label>
@@ -116,7 +116,6 @@
 					<label for="kids">Дети:</label>
 						<input type="number" name="kids" id="kids">
 					<button type="submit">Найти</button>
-				
 			</form>
 		</div>
 

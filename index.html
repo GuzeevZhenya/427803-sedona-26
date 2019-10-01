@@ -14,7 +14,7 @@
 		<header class="header">  
 			<nav class="nav">
 				<a class="logo">
-					<img src="img/logo-sedona.svg" width="120px" height="80px" alt="Логотип Sedona">
+					<img src="img/logo-sedona.svg" width="120px" height="90px" alt="Логотип Sedona">
 				</a>
 				<ul class="nav-list">
 					<li><a href="#" class="nav-item">Информация</a></li>
@@ -109,13 +109,15 @@
 					<p>Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				</div>
 				 <div class="form-call">
-					<a href="#" class="form-call">Поиск гостиницы в седоне</a> 
+					<a onclick="myFunction()" href="#" class="form-call">Поиск гостиницы в седоне</a> 
+					<button onclick="myFunction()">НАЖМИ НА МЕНЯ</button>
 				</div>
 			</div>
+
 		</section>
 		
-		<div class="visually-hidden"> 
-			<form action="#" method="post" class="main-search">
+		<div id="visually-hidden"> 
+			<form action="#" method="post" class="search-form">
 					<label for="arrival-date">Дата заезда:</label>
 						<input type="date" name="arrival-date" id="arrival-date"> 	
 					<label for="departure-date">Дата выезда:</label>
@@ -128,9 +130,21 @@
 			</form>
 		</div>
 
+		<script type="text/javascript">
+	function myFunction() {
+	  var x = document.getElementById("visually-hidden");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+	}
+</script>
+
+
 <!--Карта-->
 		<section class="map">
-			<img src="img/map.png" width="780" height="560" alt="Наше местаположение">
+			<img src="img/map.png" width="" height="" alt="Наше местаположение">
 		</section>
 		
 	</main>

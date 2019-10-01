@@ -9,7 +9,11 @@ body{
 	background-color: #f2f2f2;
 	
 }
+ 
 
+ .main-picture{
+ 	margin:0px auto;
+ }
 .wrapper{
 	max-width: 1200px;
 	width: 100%;
@@ -17,18 +21,12 @@ body{
 	background-color: white;
 }
 
-
-
-.nav{
-	display: flex;
-	align-items: center;
-}
+ 
 .logo{
 
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%)
-	
 }
 
 .nav-list{
@@ -38,12 +36,16 @@ body{
 	line-height: 26px;
 	font-weight: bold;	
 	margin-top: 0;
+	margin-bottom: 0px;
 	padding-left: 0;
+	text-align: center;
 }
 
 .nav-list li{
 	text-align: center;
 	width: 240px;
+	padding-top: 20px;
+	padding-bottom: 22px;
 }
 
 .nav-list li:nth-child(2){
@@ -64,6 +66,8 @@ body{
 .nav-list a{
 	text-decoration: none;
 	color: #000000;
+	
+
 
 
 }
@@ -76,6 +80,10 @@ body{
 	color: #cacaca;
 }
 
+
+.main-picture img{
+	display: block;
+}
 .about-city{
 
 	display: flex;
@@ -154,7 +162,6 @@ body{
 	display: flex;
 	align-items: top;
 	color: #333333;
-	text-align: center;
 	width: 1200px;	
 }
 
@@ -174,6 +181,7 @@ body{
 	font-size: 14px;
 	line-height: 21px;
 	color: #696969;
+
 }
 
 .advantages-description:nth-child(2){
@@ -181,9 +189,6 @@ body{
 	padding-left: 58px;
 }
 
-
-
- 
 .advantages-description h2{
 	margin: 0px;
 	font-size: 21px;
@@ -274,33 +279,37 @@ body{
 
 
 
-
 .registration-form{
-	
+	margin: 0px auto;
 	width: 1200px;
 	text-align: center;
-
-	
 }
 
-.form-description{
-	margin: 0px auto;
+ 
+.form-wrapper{
 	width: 576px;
 	text-align: center;
-
-
+	margin-left: 312px;
+	margin-right: 312px;
 }
+
 
 .registration-form p{
 	color: #333333;	
 	line-height: 21px;
 	font-size: 	14px;
-	font-weight: normal;
-	 
+	font-weight: normal; 
+	padding-left: 71px;
+	padding-right: 70px;
+	padding-bottom: 54px;
+	text-align: center;
 
 }
 
-
+.form-description h2{
+	padding-top: 58px;
+	padding-bottom: 38px;
+}
 
 .registration-form a{
 	background-color: #766357;
@@ -311,9 +320,6 @@ body{
 	line-height: 26px;
 
 }
-
- 
- 
 
 
 .registration-form a:hover{
@@ -337,6 +343,10 @@ body{
 	background-color: #81b3d2;
 	color: white;
 }
+
+
+
+
 
 .footer{
 	display: flex;
@@ -376,7 +386,7 @@ body{
 
 .footer{
 	background: rgba(255, 255, 255, 0.7);
-	margin-top: -120px;
+	/*margin-top: -120px;*/
 	position: relative;
 }
 
@@ -416,9 +426,19 @@ body{
 /*стили для 2 страницы */
 
 
+
+
 .catalog-form{
 	background-color: #658cb3;
 }
+
+/*.form-wrapper{
+	margin-left: 73px;
+	margin-right: 73px;
+
+}
+*/
+
 
 .catalog-form h2{
 	font-weight: bold;
@@ -432,6 +452,14 @@ body{
 	font-size: 14px;
 	line-height: 21px;
 	color: #ffffff;
+}
+
+.infastructur{
+	 display: inline-block;
+}
+
+.housing-type{
+	 display: inline-block;
 }
 
 .sorting{
@@ -483,11 +511,44 @@ body{
 }
 
 
-.about-hotels{
+.hotels-info{
+	display: flex;
 	border-bottom: 1px solid black;
 	border-bottom-color: #b1b1b1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
 }
 
+.hotel-picture{
+	
+	padding-left: 73px;
+	padding-right: 30px;
+}
+
+.about-hotels{
+	width: 651px;
+}
+.hotels-price span{
+	margin-right: 41px;
+	
+}
+.hotels-price{
+	margin-bottom: 20px;
+	margin-top: 18px;
+}
+
+.price-info a{
+	margin-right: 6px;
+	text-align: center;
+}
+
+.price-info.more-info{
+	width: 110px;
+}
+.price-info.booked{
+	width: 142px;
+}
 .title{
 	font-weight: bold;
 	font-size: 21px;
@@ -507,9 +568,10 @@ body{
 .about-hotels span{
 	color: #333333;
 	font-size: 14px;
-	line-height: 26px;
+	line-height: 10px;
 	line-height:normal;
 }
+
 
 .about-hotels a{
 	text-decoration: none;		
@@ -549,5 +611,3 @@ body{
 	background-color: #604e43;
 	color: #857871;
 }
-
-

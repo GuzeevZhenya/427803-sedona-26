@@ -545,53 +545,7 @@ body{
 	flex-direction: column;
 }
 
-.sorting{
-	border-bottom: 1px solid black;
-	border-bottom-color: #b1b1b1;
-}
 
-.sorting h2{
-	font-weight: bold;
-	font-stretch: 21px;
-	line-height: 26px;
-	color: #000000;
-}
-
-.sorting h3{
-	font-weight: bold;
-	font-size: 12px;
-	line-height: 18px;
-	color: #000000;
-}
-
-.sorting ul{
-	list-style-type: none;
-}
-
-.sorting a{
-	text-decoration: none;
-	color: #b1b1b1;
-}
-
-.sorting-by li{
-	border-bottom: 1px dotted;
-}
-
-.sorting-by a:hover{
-	color: #81b4d3;
-}
-
-.sorting-by a:focus{
-	color: #000000;
-}
-
-.sorting-button a:hover{
-	color: #000000;
-}
-
-.sorting-button a:focus{
-	color: #81b4d3;
-}
 
 
 .hotels-info{
@@ -631,8 +585,6 @@ body{
 	flex-direction: column;
 }
 
-
-
 .price-info{
 	display: flex;
 	flex-direction: column;
@@ -653,13 +605,107 @@ body{
 }
 
 .hotel-picture{
+
 	margin: 0px;
  	padding-right: 30px;
 }
 
+
+.sorting{
+	width: 1056px;
+	border-bottom: 1px solid black;
+	border-bottom-color: #b1b1b1;
+}
+
+.sorting h2{
+	font-weight: bold;
+	font-stretch: 21px;
+	line-height: 26px;
+	color: #000000;
+	margin: 0px;
+}
+
+.sorting h3{
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	margin: 0px;
+}
+
+.sorting ul{
+	list-style-type: none;
+}
+
+.sorting a{
+	text-decoration: none;
+	color: #b1b1b1;
+}
+
+.sorting-button{
+	margin: 0px;
+	padding:0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 328px;
+	margin-left: 200px;
+
+}
+
+ .sorting-by{
+ 	margin: 0px;
+ 	width: 528px;
+ 	padding:0px;
+ 	display:flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ }
+
+  .sorting-container{
+ 	margin-left: 73px;
+	width: 1056px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ }
+
+
+.sorting-button a{
+	margin-left: 12px;
+
+}
+
+.sorting-by li{
+	border-bottom: 1px dotted;
+}
+
+.sorting-by a:hover{
+	color: #81b4d3;
+}
+
+.sorting-by a:focus{
+	color: #000000;
+}
+
+.sorting-button a:hover{
+	color: #000000;
+}
+
+.sorting-button a:focus{
+	color: #81b4d3;
+}
+
+ 
+
+
+
+ 
+
+
 .rating{
 	width: 328px;
-	 text-align: right;
+	text-align: right;
 	margin-left: 200px;
 }
  

@@ -27,40 +27,43 @@
 	<main>
 	<!--1 Форма-->
 		<section class="catalog-form">
-			<div class="form-wrapper">
 			<form action="#" method="post" class="house-serch">	
-				<div class="infastructur">
-					<h2>Инфаструктура:</h2>
-						<label>
-							<input type="checkbox" name="checkbox1" value="pool" checked="" />
-							Бассейн
-						</label>
-						<label>
-							<input type="checkbox" id="checkbox2" name="checkbox2" value="parking"/>
-							Парковка
-						</label>
-						<label>
-							<input type="checkbox" id="checkbox3" name="checkbox3" value="wi-fi"/>
-							WI-FI
-						</label>
-				</div>
-	<!--2 Форма-->
-				<div class="housing-type">
-					<h2>Тип жилья:</h2>	
-						<label>
-							<input type="checkbox" name="checkbox4" value="hotel" checked="" />
-							Гостиница
-						</label>					
-						<label>
-							<input type="checkbox" name="checkbox5" value="motel" checked="" />
-							Мотель
-						</label>					
-						<label >
-							<input type="checkbox"  name="checkbox5" value="apartament" checked="" />
-							Апартаменты
-						</label>					
-				</div>
+				<div class="form-checkbox">
+					<div class="infastructur">
+						<h2>Инфаструктура:</h2>
+							<label>
+								<input type="checkbox" name="checkbox1" value="pool" checked="" />
+								Бассейн
+							</label>
+							<label>
+								<input type="checkbox" id="checkbox2" name="checkbox2" value="parking"/>
+								Парковка
+							</label>
+							<label>
+								<input type="checkbox" id="checkbox3" name="checkbox3" value="wi-fi"/>
+								WI-FI
+							</label>
+					</div>
 
+
+		<!--2 Форма-->
+						<div class="housing-type">
+							<h2>Тип жилья:</h2>	
+								<label>
+									<input type="checkbox" name="checkbox4" value="hotel" checked="" />
+									Гостиница
+								</label>					
+								<label>
+									<input type="checkbox" name="checkbox5" value="motel" checked="" />
+									Мотель
+								</label>					
+								<label>
+									<input type="checkbox"  name="checkbox5" value="apartament" checked="" />
+									Апартаменты
+								</label>					
+						</div>
+				</div>
+			</form>
 				<!--Слайдер	-->
 				<div class="range">
 					<h2>Стоимость в сутки(P)</h2>
@@ -70,7 +73,7 @@
 						<input type="range">
 						<button type="subset">Показать</button>
 				</div>
-			</div>
+			 
 			</form>
 		</section>
 <!--Блок сортировки-->
@@ -91,21 +94,22 @@
 
 			<!--1 блок отелей-->
 		<article class="hotels-info">
-			<div class="hotel-picture">
-				<img src="img/amara.jpg" widt="135" height="90">
+			<div class="hotel-wrapper">
+				<div class="hotel-picture">
+					<img src="img/amara.jpg" width="135" height="90">
+				</div>
+				<div class="about-hotels">
+					<h2><a href="#" class="title">Amara Resort & Spa</a></h2>
+					<div class="hotels-price">
+						<span>Гостиница</span>
+						<span>От 4000</span>
+					</div>
+					<div class="price-info">
+						<a href="#" class="more-info">Подробнее</a>
+						<a href="#" class="booked">Забронировать</a>
+					</div>
+				</div>	
 			</div>
-			<div class="about-hotels">
-				<h2><a href="#" class="title">Amara Resort & Spa</a></h2>
-				<div class="hotels-price">
-					<span>Гостиница</span>
-					<span>От 4000</span>
-				</div>
-				<div class="price-info">
-					<a href="#" class="more-info">Подробнее</a>
-					<a href="#" class="booked">Забронировать</a>
-				</div>
-			</div>	
-				
 			<div class="rating">
 				<img src="img/star.svg" width="20" heigth="10" alt="stars">
 				<p>Рейтинг 8.5</p>

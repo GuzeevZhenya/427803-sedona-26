@@ -31,9 +31,7 @@
  		<div class="main-picture">
 			<img src="img/intro.png" width="1200" heigth="566" alt="Главная картинка страницы">	
 		</div>
-		<div class="hidden-picture">
-			
-		</div>
+		 
 		<section class="about-city">
 			<h2>Седона - небольшой городок в аризоне, заслуживающий большего</h2>
 			<p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
@@ -109,7 +107,7 @@
 					<p>Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				</div>
 				 <div class="form-call">
-					<a onclick="myFunction()" href="#" class="form-call">Поиск гостиницы в седоне</a> 
+					<a onclick="myFunction()" onclick="return false"  href="#" class="form-call">Поиск гостиницы в седоне</a> 
 					<button onclick="myFunction()">НАЖМИ НА МЕНЯ</button>
 				</div>
 			</div>
@@ -139,6 +137,16 @@
 	    x.style.display = "none";
 	  }
 	}
+
+
+ $(function() {
+  $('a.form-call').on('click', function(event) {
+    event.preventDefault();
+  });
+});
+
+ 
+
 </script>
 
 

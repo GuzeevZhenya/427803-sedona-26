@@ -23,14 +23,15 @@ body{
 
  
 .logo{
-
+	
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%)
 }
 
 .logo img{
-	 width: 180px;
+	width: 120px;
+	height:  auto;
 }
 .nav-list{
 	display: flex;
@@ -441,10 +442,14 @@ body{
 
 
 .catalog-form{
-	background-color: #658cb3;
+	 
+ background-color: red;
+	 
+	
 	display: flex;
-
 }
+
+.catalog-form
 
 /*.form-wrapper{
 	margin-left: 73px;
@@ -555,6 +560,8 @@ body{
 	border-bottom: 1px solid black;
 	border-bottom-color: #b1b1b1;
 	margin-left: 73px;
+
+
 }
 
 .hotel-wrapper{
@@ -569,11 +576,14 @@ body{
 	width: 110px;
 	text-align:center;
 	margin-right: 6px;
+
 }
 
 .hotels-info span{
 	padding-top: 10px;
 	padding-bottom: 20px;
+
+
 }
 
 .hotels-links{
@@ -708,14 +718,6 @@ body{
 	text-align: right;
 	margin-left: 200px;
 }
- 
-
-
-
-
-
-
-
 
 
 .title{
@@ -779,4 +781,11 @@ body{
 .about-hotels .booked:focus{
 	background-color: #604e43;
 	color: #857871;
+}
+
+.catalog-footer{
+	background: rgba(255, 255, 255, 0.7);
+	margin-top: 30px;
+	position: relative;
+
 }

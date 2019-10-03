@@ -8,16 +8,17 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+ 
   <div class="wrapper">
 	<header class="header">  
 		<nav class="nav">
+			<a href="index.html" class="logo">
+				<img src="img/logo-sedona.svg" width="120" heigth="60" alt="Логотип Sedona">
+			</a>
 			<ul class="nav-list">
 				<li><a href="#" class="nav-item">Информация</a></li>
 				<li><a href="#" class="nav-item">Фото и видео</a></li>
-				<a href="index.html" class="logo">
-					<img src="img/logo-sedona.svg" width="120" heigth="60" alt="Логотип Sedona">
-				</a>
+				
 				<li><a href="#" class="nav-item">Карта штата</a></li>
 				<li><a class="nav-item">Гостиницы</a></li>
 			</ul>
@@ -65,15 +66,21 @@
 				</div>
 			</form>
 				<!--Слайдер	-->
-				<div class="range">
-					<h2>Стоимость в сутки(P)</h2>
-						<input type="text" name="price-serch" value="От 0">
-						<input type="text" name="price-serch" value="До 3000">
-						<label for="ran"></label>
-						<input type="range">
-						<button type="subset">Показать</button>
-				</div>
-			 
+				<div class="filter-range">
+			      <div class="filter-range-title">Стоимость в сутки (р):</div>
+			      <div class="price-controls">
+			        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+			        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+			      </div>
+			      <div class="range-controls">
+			        <div class="scale">
+			          <div class="bar"></div>
+			        </div>
+			        <div class="range-toggle range-toggle-min"></div>
+			        <div class="range-toggle range-toggle-max"></div>
+			      </div>
+			      <button class="btn-transparent" type="submit">Показать</button>
+			    </div>										
 			</form>
 		</section>
 
@@ -90,8 +97,8 @@
 					<li><a href="#">По рейтенгу</a></li>
 				</ul>
 				<ul class="sorting-button">
-					<li><a href="#">ВВЕРХ</a></li>
-					<li><a href="#">ВНИЗ</a></li>
+					<li><a href="#"><img src="img/icon-down-dir.svg"></a></li>
+					<li><a href="#"><img src="img/icon-up-dir.svg"></a></li>
 				</ul>
 			</div>
 		</section>

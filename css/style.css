@@ -360,6 +360,7 @@ body{
 
 .footer{
 	display: flex;
+	margin: 0px;
 	 
 }
 
@@ -443,8 +444,8 @@ body{
 
 .catalog-form{
 	 
- background-color: red;
-	 
+  background: url(filter.png) no-repeat;
+	
 	
 	display: flex;
 }
@@ -511,27 +512,141 @@ body{
 	padding-bottom: 31px;
 }
 
+.filter-range {
+  width: 330px;
+  margin: 50px auto; /* для демо */
 
-.range{
-	width: 400px;
-	margin-left: 200px;
-	display: flex;
-	flex-direction:column;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
-.range h2{
-	margin: 0px;
-	padding-top: 31px;
-	padding-bottom: 15px;
+.filter-range-title {
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
 }
 
+.price-controls {
+  position: relative;
+  
+  height: 36px;
+  margin-bottom: 20px;
+  
+  font-size: 0;
 
-.catalog-form h2{
-	font-weight: bold;
-	font-size: 16px;
- 	line-height: 26px;
-	color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
 }
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 2px;
+  height: 22px;
+
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 65px;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+}
+
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.btn-transparent {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-transparent:hover {
+  color: #000000;
+
+  background: #ffffff;
+}
+
 
 .catalog-form p{
 	font-weight: normal;
@@ -625,6 +740,8 @@ body{
 	width: 1056px;
 	border-bottom: 1px solid black;
 	border-bottom-color: #b1b1b1;
+	padding-top: 35px;
+	padding-bottom: 33px;
 }
 
 .sorting h2{
@@ -785,7 +902,8 @@ body{
 
 .catalog-footer{
 	background: rgba(255, 255, 255, 0.7);
-	margin-top: 30px;
+	margin-top: 0px;
 	position: relative;
+	margin-bottom: 0px;
 
 }

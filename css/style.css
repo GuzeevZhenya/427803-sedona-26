@@ -444,7 +444,7 @@ body{
 
 .catalog-form{
 	 
-  background: url(filter.png) no-repeat;
+  background: url(../img/filter.png) no-repeat;
 	
 	
 	display: flex;
@@ -664,6 +664,8 @@ body{
 	display: flex;
 	flex-direction: column;
 }
+
+
 
 
 

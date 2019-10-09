@@ -30,7 +30,7 @@ body{
 }
 
 .logo img{
-	width: 120px;
+	width: 140px;
 	height:  auto;
 }
 .nav-list{
@@ -317,7 +317,6 @@ body{
 }
 
 .registration-form a{
-	margin: 0px;
 	background-color: #766357;
 	text-decoration: none;
 	color: white;
@@ -325,6 +324,12 @@ body{
 	font-weight: bold;
 	line-height: 26px;
 	display: block;
+	margin-right: 316px;
+	margin-left: 316px;
+	padding-top: 35px;
+	padding-bottom: 36px;
+	text-align: center;
+	 
 }
 
 
@@ -730,6 +735,15 @@ body{
 .about-hotels h2{
 	margin: 0px;
 }
+
+.about-hotels a:hover{
+	color:#cacaca;
+}
+
+.about-hotels a:focus{
+	color:#b9d3e4
+}
+
 
 .hotel-picture{
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
@@ -101,20 +101,17 @@
 		
 	<!--форма поиска гостиниц -->
 		<section class="registration-form">
-			<div class="form-wrapper">
-				<div class="form-description">
 					<h2>Заинтересовались?</h2> 
 					<p>Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-				</div>
-				 <div class="form-call">
-					<a onclick="myFunction()" onclick="return false"  href="#" class="form-call">Поиск гостиницы в седоне</a> 
-					<button onclick="myFunction()">НАЖМИ НА МЕНЯ</button>
-				</div>
-			</div>
-
+					<a href="#" class="form-call">Поиск гостиницы в седоне</a> 
 		</section>
 		
-		<div id="visually-hidden"> 
+		
+	
+
+
+<!--Карта-->
+		<section class="map">
 			<form action="#" method="post" class="search-form">
 					<label for="arrival-date">Дата заезда:</label>
 						<input type="date" name="arrival-date" id="arrival-date"> 	
@@ -126,32 +123,6 @@
 						<input type="number" name="kids" id="kids">
 					<button type="submit">Найти</button>
 			</form>
-		</div>
-
-		<script type="text/javascript">
-	function myFunction() {
-	  var x = document.getElementById("visually-hidden");
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-	}
-
-
- $(function() {
-  $('a.form-call').on('click', function(event) {
-    event.preventDefault();
-  });
-});
-
- 
-
-</script>
-
-
-<!--Карта-->
-		<section class="map">
 			<img src="img/map.png" width="" height="" alt="Наше местаположение">
 		</section>
 		

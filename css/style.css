@@ -31,8 +31,9 @@ body{
 
 .logo img{
 	width: 140px;
-	height:  auto;
+	height: auto;
 }
+
 .nav-list{
 	display: flex;
 	font-size: 14px;
@@ -48,8 +49,8 @@ body{
 .nav-list li{
 	text-align: center;
 	width: 240px;
-	padding-top: 20px;
-	padding-bottom: 22px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .nav-list li:nth-child(2){
@@ -62,7 +63,7 @@ body{
 }
 
 .nav-list li:last-child{
-	text-align: left;
+	text-align: right;
 	padding-right: 72px;
 }
 
@@ -70,10 +71,6 @@ body{
 .nav-list a{
 	text-decoration: none;
 	color: #000000;
-	
-
-
-
 }
 
 .nav-list a:hover{
@@ -121,6 +118,7 @@ body{
 
 .reasons-image img {
 	display: block;
+
 	 
 }
 
@@ -142,24 +140,33 @@ body{
 	justify-content: space-around;
 }
 
-
-.reasons-city p{
-	margin: 0px;
-	line-height: 21px;
-	font-size: 	14px;
-	font-weight: normal;	
-	width: 282px;
-	text-align: center;
- 
-}
-
 .reasons-city h2{
 	margin: 0px;	
 	width: 123px;
 	line-height: 26px;
-	font-size: 	21px;
+	font-size: 21px;
 	font-weight: bold;	
 }
+
+.reasons-number{
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+	line-height: 21px;
+	font-size: 14px;
+
+}
+
+.reasons-city p{
+	margin: 0px;
+	line-height: 21px;
+	font-size: 14px;
+	font-weight: normal;	
+	width: 282px;
+	text-align: center;
+}
+
+
 
 .advantages{
 	margin: 0px;
@@ -438,6 +445,7 @@ body{
 
 .map{
 	width: 100%;
+	text-align: center;
 	 
 }
 

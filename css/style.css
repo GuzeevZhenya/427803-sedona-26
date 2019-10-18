@@ -7,10 +7,8 @@ body{
 	font-family: "PT Sans", Arial, sans-serif;	
 	text-transform: uppercase;
 	background-color: #f2f2f2;
-	
 }
  
-
  .main-picture{
  	margin:0px auto;
  }
@@ -21,7 +19,6 @@ body{
 	background-color: white;
 }
 
- 
 .logo{
 	
 	position: absolute;
@@ -67,7 +64,6 @@ body{
 	padding-right: 72px;
 }
 
-
 .nav-list a{
 	text-decoration: none;
 	color: #000000;
@@ -80,7 +76,6 @@ body{
 .nav-list a:focus{
 	color: #cacaca;
 }
-
 
 .main-picture img{
 	display: block;
@@ -113,20 +108,16 @@ body{
 	font-size:14px;
 	line-height: 26px;
 	font-weight: normal;
- 
 }
 
 .reasons-image img {
-	display: block;
-
-	 
+	display: block; 
 }
 
 .reasons{
 	display: flex;
 	text-align: center;
-	width: 1200px;
-	
+	width: 1200px;	
 }
 
 .reasons-city{
@@ -154,7 +145,6 @@ body{
 	padding-bottom: 25px;
 	line-height: 21px;
 	font-size: 14px;
-
 }
 
 .reasons-city p{
@@ -165,8 +155,6 @@ body{
 	width: 282px;
 	text-align: center;
 }
-
-
 
 .advantages{
 	margin: 0px;
@@ -209,7 +197,6 @@ body{
 	padding-top: 32px;
 }
 
-
 .reasons-bridge{
 	display: flex;
 	flex-direction: column;
@@ -220,7 +207,6 @@ body{
 	padding: 49px 49px 66px 48px;
 	justify-content: space-between;
 }
-
 
 .reasons-bridge h2{
 	margin: 0px;
@@ -258,8 +244,6 @@ body{
 	padding-right: 76px;
 }
 
-
- 
 .reasons-description p{
 	margin: 0px;
 	line-height: 21px;
@@ -288,22 +272,24 @@ body{
 	  
 }
 
-
-
 .registration-form{
 	margin: 0px auto;
 	width: 1200px;
 	text-align: center;
 }
 
- 
+
+
+.arrival-date{
+
+}
+
 .form-wrapper{
 	width: 576px;
 	text-align: center;
 	margin-left: 312px;
 	margin-right: 312px;
 }
-
 
 .registration-form p{
 	margin: 0px;
@@ -335,15 +321,12 @@ body{
 	margin-left: 316px;
 	padding-top: 35px;
 	padding-bottom: 36px;
-	text-align: center;
-	 
+	text-align: center; 
 }
-
 
 .registration-form a:hover{
 	color: #ffffff;
 	background-color: #604e43;
-
 }
 
 .registration-form a:focus{
@@ -358,22 +341,127 @@ body{
 	padding-left: 403px;
 }
 
+
+/* Форма поиска*/
 .search-form{
-		position: absolute;
-		display: flex;
-		flex-direction: column;
-		text-align: center;
+	display: flex;
+ 	flex-direction:column;
+	width: 568px;
+	position: absolute;
+	display: flex; 
+  	flex-wrap: nowrap;
+    background-color: white;
+  	margin-right: 314px;
+  	padding: 55px 55px 55px 55px;
+    margin-left: 316px;
+}
+
+.arrival-date, .departure-date{
+	width: 458px;
+	margin-bottom: 29px;
+	
+}
+
+.arrival-date input, .departure-date input{
+	width: 346px;
+	padding: 4px 37px 8px 15px;
+	float: right;
+}
+
+.arrival-date label, .departure-date label, .adults label, .kids label {
+	float: left;
+	padding: 5px 0 7px;
+	line-height: 26px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.people-number{
+	display: flex;
+
+	width: 458px; 
+	margin-bottom: 54px;
+}
+
+.kids{
+	display: flex;
+	justify-content: space-between;
+	width: 229px;
+	vertical-align: top;
+}
+
+.adults{
+	display: flex;
+	justify-content: space-between;
+	vertical-align: top;
+	width: 229px;
+}
+
+.kids input, .adults input{
+	width: 114px;
+}
+ 
+.adults label{
+	margin-right: 43px;
+}
+.adults input{
+	padding: 0px;
+	margin-right: 3px;
+}
+
+.kids label{
+	margin-left: 50px;
+}
+.kids input{
+	padding: 0px;
+}
+
+
+.find-button{
+	padding: 14px 10px 15px 10px;
+	font-size: 21px;
+	line-height: 26px;
+	color: #ffffff;
+	background-color: #81b3d2;
+}
+
+/*
+.search-form{
+	display: block;
+	position: absolute;
+	top:0px;
+	box-shadow: 0 0 24px -6px #856d69;
+	width: 568px;
+	padding: 57px 55px;
+	margin: 0 auto;
+	line-height: 26px;
+	text-align: left;
+	font-weight: bold;
+	background: #ffffff;
+}
+
+.search-form label{
+	float: left;
+	width: 88px;
+	text-align: left;
+}
+
+.date-field{
+	width: 346px;
 
 }
+ */
 .button{
 	background-color: #81b3d2;
 	color: white;
 }
 
+
 .footer{
 	display: flex;
 	margin: 0px;
-	 
+	width: 1200px;	 
 }
 
 .footer-list{
@@ -449,17 +537,11 @@ body{
 	 
 }
 
-
 /*стили для 2 страницы */
-
-
-
 
 .catalog-form{
 	 
-  background: url(../img/filter.png) no-repeat;
-	
-	
+  	background: url(../img/filter.png) no-repeat;	
 	display: flex;
 }
 
@@ -526,54 +608,46 @@ body{
 }
 
 .filter-range {
-  width: 330px;
-  margin: 50px auto; /* для демо */
-
-  color: #ffffff;
-  text-transform: uppercase;
+	width: 330px;
+	margin: 50px auto; /* для демо */
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
-
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 21px;
+   margin-bottom: 9px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 21px;
 }
 
 .price-controls {
   position: relative;
   
-  height: 36px;
-  margin-bottom: 20px;
-  
-  font-size: 0;
-
-  border: 2px solid #ffffff;
-  border-radius: 2px;
+   height: 36px;
+   margin-bottom: 20px;
+   font-size: 0;
+   border: 2px solid #ffffff;
+   border-radius: 2px;
 }
 
 .price-controls::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  width: 2px;
-  height: 22px;
-
-  background: #ffffff;
-  transform: translate(-50%, -50%);
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 2px;
+   height: 22px;
+   background: #ffffff;
+   transform: translate(-50%, -50%);
 }
 
 .price-controls label {
-  display: inline-block;
-
-  font-size: 14px;
-  line-height: 38px;
-  vertical-align: top;
-
-  cursor: pointer;
+   display: inline-block;
+   font-size: 14px;
+   line-height: 38px;
+   vertical-align: top;
+   cursor: pointer;
 }
 
 .price-controls .min-price,
@@ -690,8 +764,6 @@ body{
 	border-bottom: 1px solid black;
 	border-bottom-color: #b1b1b1;
 	margin-left: 73px;
-
-
 }
 
 .hotel-wrapper{
@@ -706,14 +778,11 @@ body{
 	width: 110px;
 	text-align:center;
 	margin-right: 6px;
-
 }
 
 .hotels-info span{
 	padding-top: 10px;
 	padding-bottom: 20px;
-
-
 }
 
 .hotels-links{
@@ -907,7 +976,6 @@ body{
 	color: #88b6d1;
 }
 
-
 .about-hotels .booked{
 	background-color: #766357;
 	color: #ffffff;
@@ -929,5 +997,4 @@ body{
 	margin-top: 0px;
 	position: relative;
 	margin-bottom: 0px;
-
 }

@@ -366,6 +366,8 @@ body{
 	width: 346px;
 	padding: 4px 37px 8px 15px;
 	float: right;
+	background-color: #f2f2f2;
+	border: none;
 }
 
 .arrival-date label, .departure-date label, .adults label, .kids label {
@@ -377,9 +379,10 @@ body{
 	font-size: 14px;
 }
 
+
+
 .people-number{
 	display: flex;
-
 	width: 458px; 
 	margin-bottom: 54px;
 }
@@ -399,7 +402,9 @@ body{
 }
 
 .kids input, .adults input{
-	width: 114px;
+	width: 38px;
+	background-color: #f2f2f2;
+	text-align: center;
 }
  
 .adults label{
@@ -407,16 +412,47 @@ body{
 }
 .adults input{
 	padding: 0px;
-	margin-right: 3px;
+	background-color: #f2f2f2;
+	border: none;	
 }
 
 .kids label{
 	margin-left: 50px;
+	margin-right: 27px;
+	
 }
 .kids input{
 	padding: 0px;
+	background-color: #f2f2f2;
+	border: none;
 }
 
+
+.arrival-date div{
+	position: absolute;
+	right: 64px;
+	top: 62px;
+	color: #c2c2c2;;
+}
+
+.departure-date div{
+	position: absolute;
+	right: 64px;
+	top: 129px;
+	color: #c2c2c2;;
+}
+
+.adults button{
+	width: 38px;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.kids button{
+	width: 38px;
+	background-color: #f2f2f2;
+	border: none;
+}
 
 .find-button{
 	padding: 14px 10px 15px 10px;
@@ -424,6 +460,7 @@ body{
 	line-height: 26px;
 	color: #ffffff;
 	background-color: #81b3d2;
+	border: none;	
 }
 
 /*

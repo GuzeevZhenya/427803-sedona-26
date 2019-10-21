@@ -8,6 +8,10 @@ body{
 	text-transform: uppercase;
 	background-color: #f2f2f2;
 }
+img{
+	max-width: 100%;
+	height: auto;
+}
  
  .main-picture{
  	margin:0px auto;
@@ -532,6 +536,10 @@ body{
 	align-items: center;
 }
 
+.copyright a{
+	margin-left: 6px;
+}
+
 .footer{
 	background: rgba(255, 255, 255, 0.7);
 	margin-top: -85px;
@@ -565,7 +573,20 @@ body{
 
 .footer-links a:focus{
 	background-color: #5496bd;
+}
+
+.footer-links a:focus path{
+	fill:#88b6d1;
+}
+
+
+.footer-copyright :hover path{
+	fill: #81b3d2;
+}
+
+.footer-copyright :active path{
 	
+	fill:#c9c8c8;
 }
 
 .map{
@@ -643,7 +664,6 @@ body{
 	 
 	padding-bottom: 31px;
 }
-
 .filter-range {
 	width: 330px;
 	margin: 50px auto; /* для демо */
@@ -670,7 +690,8 @@ body{
 
 .price-controls::after {
    content: "";
-   position: absolute;
+   position: absolute
+;
    top: 50%;
    left: 50%;
    width: 2px;
@@ -798,8 +819,7 @@ body{
 	width: 1056px;
 	display: flex;
 	flex-direction: row;
-	border-bottom: 1px solid black;
-	border-bottom-color: #b1b1b1;
+	 
 	margin-left: 73px;
 }
 
@@ -868,8 +888,7 @@ body{
 
 .sorting{
 	width: 1056px;
-	border-bottom: 1px solid black;
-	border-bottom-color: #b1b1b1;
+	 
 	padding-top: 35px;
 	padding-bottom: 33px;
 }

@@ -8,6 +8,10 @@ body{
 	text-transform: uppercase;
 	background-color: #f2f2f2;
 }
+img{
+	max-width: 100%;
+	height: auto;
+}
  
  .main-picture{
  	margin:0px auto;
@@ -528,8 +532,21 @@ body{
 
 .footer-links a:focus{
 	background-color: #5496bd;
-	
 }
+
+.footer-links a:focus path{
+	fill:#88b6d1;
+}
+
+
+.footer-icon a:focus path{
+	fill:#98c1da;
+}
+
+.footer-icon a:hover path{
+	fill:#bdbbbc;
+}
+
 
 .map{
 	width: 100%;
@@ -606,7 +623,6 @@ body{
 	 
 	padding-bottom: 31px;
 }
-
 .filter-range {
 	width: 330px;
 	margin: 50px auto; /* для демо */
@@ -633,7 +649,8 @@ body{
 
 .price-controls::after {
    content: "";
-   position: absolute;
+   position: absolute
+;
    top: 50%;
    left: 50%;
    width: 2px;
@@ -761,8 +778,7 @@ body{
 	width: 1056px;
 	display: flex;
 	flex-direction: row;
-	border-bottom: 1px solid black;
-	border-bottom-color: #b1b1b1;
+	 
 	margin-left: 73px;
 }
 
@@ -831,8 +847,7 @@ body{
 
 .sorting{
 	width: 1056px;
-	border-bottom: 1px solid black;
-	border-bottom-color: #b1b1b1;
+	 
 	padding-top: 35px;
 	padding-bottom: 33px;
 }

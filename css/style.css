@@ -499,6 +499,10 @@ img{
 	align-items: center;
 }
 
+.copyright a{
+	margin-left: 6px;
+}
+
 .footer{
 	background: rgba(255, 255, 255, 0.7);
 	margin-top: -85px;
@@ -539,14 +543,14 @@ img{
 }
 
 
-.footer-icon a:focus path{
-	fill:#98c1da;
+.footer-copyright :hover path{
+	fill: #81b3d2;
 }
 
-.footer-icon a:hover path{
-	fill:#bdbbbc;
+.footer-copyright :active path{
+	
+	fill:#c9c8c8;
 }
-
 
 .map{
 	width: 100%;

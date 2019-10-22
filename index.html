@@ -106,7 +106,7 @@
 			
 	<!--Форма-->
 			  <section>
-				<form action="#" method="post" class="search-form">
+				<form action="#" method="post" class="search-form form-hidden">
 					<div class="arrival-date">
 						<label for="arrival-date">Дата заезда:</label>
 						<input type="date" name="arrival-date" id="arrival-date" value="24 апреля 2017">
@@ -143,10 +143,12 @@
 
 				var popup = document.querySelector(".search-form");
 				var close = popup.querySelector(".form-call");
+				var login = popup.querySelector("[name=arrival-date]");
 
 				link.addEventListener("click", function (evt) {
 				  evt.preventDefault();
 				  popup.classList.add("modal-show");
+				  login.focus();
 				});
 
 				close.addEventListener("click", function (evt) {

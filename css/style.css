@@ -383,8 +383,6 @@ img{
 	font-size: 14px;
 }
 
-
-
 .people-number{
 	display: flex;
 	width: 458px; 
@@ -400,7 +398,7 @@ img{
 
 .adults{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	vertical-align: top;
 	width: 229px;
 }
@@ -410,6 +408,7 @@ img{
 	background-color: #f2f2f2;
 	text-align: center;
 }
+
  
 .adults label{
 	margin-right: 43px;

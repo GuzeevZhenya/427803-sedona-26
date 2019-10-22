@@ -105,7 +105,7 @@
 			</section>
 			
 	<!--Форма-->
-			  
+			  <section>
 				<form action="#" method="post" class="search-form">
 					<div class="arrival-date">
 						<label for="arrival-date">Дата заезда:</label>
@@ -137,7 +137,24 @@
 						<button class="find-button" type="submit"><span>Найти</span></button>
 				</form>
 			  
-			
+
+			<script>
+				var link = document.querySelector(".form-call");
+
+				var popup = document.querySelector(".search-form");
+				var close = popup.querySelector(".form-call");
+
+				link.addEventListener("click", function (evt) {
+				  evt.preventDefault();
+				  popup.classList.add("modal-show");
+				});
+
+				close.addEventListener("click", function (evt) {
+					evt.preventDefault();
+					popup.classList.remove("modal-show");
+  				});
+
+			</script>
 
 
 

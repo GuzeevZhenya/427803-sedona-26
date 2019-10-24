@@ -21,6 +21,7 @@ img{
 	width: 100%;
 	margin:0 auto;
 	background-color: white;
+	box-shadow: 
 }
 
 .logo{
@@ -379,7 +380,7 @@ img{
   	flex-wrap: nowrap;
     background-color: white;
   	margin-right: 314px;
-  	padding: 55px 55px 55px 60px;
+  	padding: 57px 55px 55px 55px;
     margin-left: 316px;
 
 }
@@ -457,7 +458,7 @@ img{
 
 .arrival-date label, .departure-date label, .adults label, .kids label {
 	float: left;
-	padding: 5px 0 7px;
+	padding: 5px 3px 7px;
 	line-height: 26px;
 	text-align: left;
 	font-weight: bold;
@@ -487,7 +488,7 @@ img{
 .kids input, .adults input{
 	width: 38px;
 	background-color: #f2f2f2;
-	text-align: center;
+	text-align: right;
 }
 
  

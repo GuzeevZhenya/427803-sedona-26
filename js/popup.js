@@ -17,7 +17,7 @@ window.addEventListener("keydown", function(evt) {
         }
     }
 });
-form.addEventListener("submit", function(evt) {
+popup.addEventListener("submit", function(evt) {
     for (var i = 0; i < validation.length; i++) {
         if (!validation[i].value) {
             evt.preventDefault();

@@ -504,10 +504,11 @@ img{
 
 .arrival-date input, .departure-date input{
 	width: 346px;
-	padding: 4px 37px 8px 15px;
+	padding: 4px 37px 16px 15px;
 	float: right;
 	background-color: #f2f2f2;
 	border: none;
+	text-align: left;
 }
 
 .arrival-date label, .departure-date label, .adults label, .kids label {
@@ -722,11 +723,11 @@ img{
 }
 
 
-.footer-copyright :hover path{
+.footer-copyright:hover path{
 	fill: #81b3d2;
 }
 
-.footer-copyright :active path{
+.footer-copyright:active path{
 	fill:#c9c8c8;
 }
 

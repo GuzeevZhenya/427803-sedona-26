@@ -504,7 +504,7 @@ img{
 
 .arrival-date input, .departure-date input{
 	width: 346px;
-	padding: 4px 37px 16px 15px;
+	padding: 10px 37px 16px 15px;
 	float: right;
 	background-color: #f2f2f2;
 	border: none;
@@ -964,7 +964,7 @@ img{
 	display: flex;
 	flex-direction: row;
 	 
-	margin-left: 73px;
+	padding-left: 73px;
 }
 
 .hotel-wrapper{

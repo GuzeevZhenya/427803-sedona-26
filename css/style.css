@@ -420,11 +420,10 @@ img{
 
 /* Форма поиска*/
 .search-form{
-	display: flex;
+	display: none;
  	flex-direction:column;
 	width: 568px;
-	position: absolute;
-	display: flex; 
+	position: absolute; 
 	top: 0;
 
    
@@ -437,7 +436,6 @@ img{
     margin-bottom: 78px;
     box-shadow: 0px 7px 15px 0px rgba(0, 1, 1, 0.15);
     background-color: #ffffff;
-
 }
 
 .form-hidden{
@@ -447,7 +445,7 @@ img{
 
 
 .modal-show {
-  display: block;
+  display: flex;
   animation: bounce 0.6s;
 }
 
@@ -504,11 +502,12 @@ img{
 
 .arrival-date input, .departure-date input{
 	width: 346px;
-	padding: 10px 37px 16px 15px;
+	padding: 0px 37px 0px 15px;
 	float: right;
 	background-color: #f2f2f2;
 	border: none;
 	text-align: left;
+	height: 34px;
 }
 
 .arrival-date label, .departure-date label, .adults label, .kids label {
@@ -543,12 +542,12 @@ img{
 .kids input, .adults input{
 	width: 38px;
 	background-color: #f2f2f2;
-	text-align: right;
+	text-align: center;
 }
 
  
 .adults label{
-	margin-right: 43px;
+	margin-right: 3px;
 }
 .adults input{
 	padding: 0px;
@@ -743,18 +742,13 @@ img{
 
 .catalog-form{
 	 
-  	background: url(../img/filter.png) no-repeat;	
+  
+}
+
+.house-serch{
+	background: url(../img/filter.png);	
 	display: flex;
 }
-
-.catalog-form
-
-/*.form-wrapper{
-	margin-left: 73px;
-	margin-right: 73px;
-
-}
-*/
 
 .form-checkbox{
 	width: 528px;
@@ -809,53 +803,60 @@ img{
 	padding-bottom: 31px;
 }
 .filter-range {
-	width: 330px;
-	margin: 50px auto; /* для демо */
-	color: #ffffff;
-	text-transform: uppercase;
+  width: 330px;
+  margin: 50px auto; /* для демо */
+
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .filter-range-title {
-   margin-bottom: 9px;
-   font-weight: 600;
-   font-size: 16px;
-   line-height: 21px;
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .price-controls {
   position: relative;
   
-   height: 36px;
-   margin-bottom: 20px;
-   font-size: 0;
-   border: 2px solid #ffffff;
-   border-radius: 2px;
+  height: 36px;
+  margin-bottom: 20px;
+  
+  font-size: 0;
+
+  border: 2px solid #ffffff;
+  border-radius: 2px;
 }
 
 .price-controls::after {
-   content: "";
-   position: absolute
-;
-   top: 50%;
-   left: 50%;
-   width: 2px;
-   height: 22px;
-   background: #ffffff;
-   transform: translate(-50%, -50%);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 2px;
+  height: 22px;
+
+  background: #ffffff;
+  transform: translate(-50%, -50%);
 }
 
 .price-controls label {
-   display: inline-block;
-   font-size: 14px;
-   line-height: 38px;
-   vertical-align: top;
-   cursor: pointer;
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+
+  cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 50px;
 }
 
 .price-controls input {
@@ -926,7 +927,7 @@ img{
 
   background: transparent;
   border: 2px solid #ffffff;
-  border-radius: 2px;
+  border-radius: 2px;s
   cursor: pointer;
 }
 
@@ -935,7 +936,6 @@ img{
 
   background: #ffffff;
 }
-
 
 .catalog-form p{
 	font-weight: normal;

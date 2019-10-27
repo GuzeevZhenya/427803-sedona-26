@@ -1,12 +1,14 @@
 var link = document.querySelector(".form-call");
 var popup = document.querySelector(".search-form");
-var arrival = popup.querySelector("[name=arrival-date]");
+var arrival = popup.querySelector("#arrival-date");
 var form = popup.querySelector("form");
 var validation = popup.querySelectorAll(".valid");
 link.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.toggle("modal-show");
-    arrival.focus(); 
+    setTimeout(function(){
+        arrival.focus(); 
+    }, 300);
 });      
 window.addEventListener("keydown", function(evt) {
     if (evt.keyCode === 27) {

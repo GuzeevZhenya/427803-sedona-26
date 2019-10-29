@@ -563,7 +563,7 @@ img{
 }
 
 .kids label{
-	margin-left: 50px;
+	margin-left: 44px;
 	margin-right: 27px;
 	
 }
@@ -614,19 +614,17 @@ img{
 	text-transform: uppercase;
 }
 
+
+
 .button-minus,
 .button-plus {
   position: relative;
-
   margin: 0;
   padding: 0;
   width: 38px;
   height: 38px;
-
   border: none;
-
   background-color: #f2f2f2;
-
   vertical-align: top;
 }
 
@@ -635,10 +633,8 @@ img{
   content: "";
   top: 17px;
   left: 15px;
-
   width: 11px;
   height: 3px;
-
   background-color: #a9a9a9;
 }
 
@@ -647,10 +643,8 @@ img{
   content: "";
   top: 17px;
   left: 15px;
-
   width: 11px;
   height: 3px;
-
   background-color: #a9a9a9;
 }
 
@@ -659,10 +653,8 @@ img{
   content: "";
   top: 13px;
   right: 16px;
-
   width: 3px;
   height: 11px;
-
   background-color: #a9a9a9;
 }
 
@@ -856,12 +848,16 @@ img{
 	display: flex;
 	flex-direction: column;
 	min-width: 241px;
-	padding:32px 0px 31px 0px;
+	padding:25px 0px 31px 0px;
+}
+
+.housing-type{
+	margin-right: 136px;
 }
 
 .pool-check,
 .hotel-check{
-    margin-top: 25px;
+    margin-top: 26px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -1167,20 +1163,17 @@ img{
 	padding-bottom: 33px;
 }
 
-.sorting h2{
-	font-weight: bold;
-	font-stretch: 21px;
-	line-height: 26px;
-	color: #000000;
-	margin: 0px;
-}
 
-.sorting h3{
-	font-weight: bold;
+
+.sorting-by h3{
+	font-weight: 400;
 	font-size: 12px;
 	line-height: 18px;
 	color: #000000;
 	margin: 0px;
+	margin-left: 29px;
+	padding-top: 7px;
+	width: 80px;
 }
 
 .sorting ul{
@@ -1188,10 +1181,14 @@ img{
 	font-style: 
 }
 
-.sorting a{
+.sorting-by a{
 	text-decoration: none;
 	color: #b1b1b1;
-	font-style: 12px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	margin-top: 7px;
+	display: block;
 }
 
 .sorting-button{
@@ -1212,6 +1209,14 @@ img{
  	display:flex;
  	align-items: center;
  	justify-content: space-between;
+ }
+
+ .sorting-by h2{
+	margin: 0;
+	font-size: 21px;
+	line-height: 26px;
+	width: 135px;
+
  }
 
   .sorting-container{
@@ -1346,6 +1351,7 @@ img{
     background-repeat: no-repeat;
     background-position: 0 0;
     cursor: pointer;
+
     
 }
 
@@ -1370,6 +1376,7 @@ img{
     background-repeat: no-repeat;
     background-position: 0 0;
     cursor: pointer;
+
 }
 
 .check-list-1 input[type=checkbox]:checked:disabled + label::after,
@@ -1393,10 +1400,14 @@ img{
 
 .check-list-1 label{
     margin-left: 39px;
+    line-height: 21px;
+    font-size:14px;
 }
 
 .check-list-2 label{
     margin-left: 42px;
+     line-height: 21px;
+    font-size:14px;
 }
 
 .check-list-1,

@@ -23,6 +23,7 @@ img{
 	width: 100%;
 	margin:0 auto;
 	background-color: white;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
 	 
 }
 
@@ -510,6 +511,8 @@ img{
 	text-align: left;
 	height: 34px;
 	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
 }
 
 .arrival-date label, .departure-date label, .adults label, .kids label {
@@ -546,6 +549,7 @@ img{
 	background-color: #f2f2f2;
 	text-align: center;
 	font-weight: bold;
+	f
 }
 
 .adults label{
@@ -569,18 +573,23 @@ img{
 	border: none;
 }
 
-.arrival-date div{
+.arrival-date button{
 	position: absolute;
-	right: 64px;
-	top: 62px;
-	color: #c2c2c2;;
+	right: 57px;
+	top: 60px;
+	color: #c2c2c2;
+	background-color: #f2f2f2;
+	border: none;
+
 }
 
-.departure-date div{
+.departure-date button{
 	position: absolute;
-	right: 64px;
-	top: 129px;
-	color: #c2c2c2;;
+	right: 57px;
+	top: 127px;
+	color: #c2c2c2;
+	background-color: #f2f2f2;
+	border: none;
 }
 
 .adults button{
@@ -602,75 +611,161 @@ img{
 	color: #ffffff;
 	background-color: #81b3d2;
 	border: none;	
+	text-transform: uppercase;
 }
 
-/*
-.search-form{
-	display: block;
-	position: absolute;
-	top:0px;
-	box-shadow: 0 0 24px -6px #856d69;
-	width: 568px;
-	padding: 57px 55px;
-	margin: 0 auto;
-	line-height: 26px;
-	text-align: left;
-	font-weight: bold;
-	background: #ffffff;
+.button-minus,
+.button-plus {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+
+  border: none;
+
+  background-color: #f2f2f2;
+
+  vertical-align: top;
 }
 
-.search-form label{
-	float: left;
-	width: 88px;
-	text-align: left;
+.button-minus::before {
+  position: absolute;
+  content: "";
+  top: 17px;
+  left: 15px;
+
+  width: 11px;
+  height: 3px;
+
+  background-color: #a9a9a9;
 }
 
-.date-field{
-	width: 346px;
+.button-plus::before {
+  position: absolute;
+  content: "";
+  top: 17px;
+  left: 15px;
 
+  width: 11px;
+  height: 3px;
+
+  background-color: #a9a9a9;
 }
- */
+
+.button-plus::after {
+  position: absolute;
+  content: "";
+  top: 13px;
+  right: 16px;
+
+  width: 3px;
+  height: 11px;
+
+  background-color: #a9a9a9;
+}
+
+
 .button{
 	background-color: #81b3d2;
 	color: white;
 }
 
 
-.footer{
+.footer, .catalog-footer{
+	width: 100%;
+	padding: 30px 73px;
+	padding-bottom: 36px;
 	display: flex;
-	margin: 0px;
-	width: 1200px;
-	margin-top:-119px
+	justify-content: space-between;
+	
+	background-color: #ffffff;
+
+}
+
+.footer{
+	background: rgba(255, 255, 255, 0.7);
+	position: relative;
+	margin-top: -120px;
 	 
 }
 
-.footer-list{
-	margin: 0px;
-	list-style-type: none;
+.footer-link,
+.footer-list,
+.copyright{
+	width: 240px;
+}
+
+.footer-link{
+	padding-top: 17px;
+	padding-left: 60px;
 }
 
 .footer-description{
-	text-decoration: none;
+	line-height: 26px;
+	font-size: 21px;
 	color: #000000;
+	text-decoration: none;
 	font-weight: bold;
 }
 
+.footer-list{
+	display: flex;
+	margin:0;
+	padding: 0;
+	padding-top: 6px;
+	padding-left: 40px;
+	
+}
+
+.footer-links{
+	display: flex;
+	margin:0 3px;
+	padding: 0;
+	width: 46px;
+	height: 48px;
+	background-color: #81b3d2;
+}
+
+.footer-list a{
+	display: flex;
+	width: 46px;
+	height: 48px;
+	background-color: #81b3d2;
+	align-items: center;
+	justify-content: center; 
+
+}
+
+
+
+
+.copyright{
+	padding-top: 7px;
+	padding-left: 15px;
+}
+
+.footer-copyright{
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+}
+
+.copyright span{
+	margin-right: 10px;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+/*
 .footer-link{
 	width: 400px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
-}
-
-.footer-social{
-	width: 400px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 44px;
-	margin-bottom: 36px;
-	padding-left: 3px;
 }
 
 .copyright{
@@ -685,17 +780,6 @@ img{
 
 }
 
-.footer{
-	background: rgba(255, 255, 255, 0.7);
-	margin-top: -85px;
-	position: relative;
-}
-
-.footer-list{
-	width: 100%;
-	padding-left: 0;
-	text-align: center;
-}
 
 .footer-links{
 	display: inline-block;
@@ -710,13 +794,11 @@ img{
 	width: 46px;
 	height: 48px;
 }
+*/
 
+.footer-links a:focus,
 .footer-links a:hover{
 	background-color: #669ec0;
-}
-
-.footer-links a:focus{
-	background-color: #5496bd;
 }
 
 .footer-links a:focus path{
@@ -724,13 +806,22 @@ img{
 }
 
 
-.footer-copyright:hover path{
-	fill: #81b3d2;
+
+.footer-copyright svg{
+	fill:#000000;
 }
 
-.footer-copyright:active path{
-	fill:#c9c8c8;
+.footer-copyright:hover svg,
+.footer-copyright:focus svg{
+	  fill: #81b3d2;
 }
+
+.footer-copyright:active svg{
+	  fill: #bdbbbc;
+}
+
+
+
 
 .map{
     position: relative;

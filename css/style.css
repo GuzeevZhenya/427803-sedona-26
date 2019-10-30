@@ -665,8 +665,7 @@ img{
 }
 
 
-.footer-index,
-.catalog-footer{
+.footer{
 	width: 100%;
 	padding: 30px 73px;
 	padding-bottom: 36px;
@@ -676,7 +675,7 @@ img{
 }
 
 
-.footer{
+.footer-index{
 	background: rgba(255, 255, 255, 0.7);
 	position: relative;
 	margin-top: -120px; 
@@ -792,9 +791,19 @@ img{
 	background-color: #669ec0;
 }
 
-.footer-links a:focus path{
+.footer-links a:focus{
 	fill:#88b6d1;
 }
+
+.footer-social-icon svg{
+	fill: #ffffff;
+}
+
+.footer-social-icon:active svg{
+	fill:#88b6d1;
+}
+
+
 
 
 
@@ -1213,7 +1222,7 @@ img{
 	margin-left: 30px;
 }
 
-.title h2{
+.about-hotels h2{
 	margin: 0;
 	font-size: 21px;
 	line-height: 26px;
@@ -1235,6 +1244,13 @@ img{
 	margin-top:  18px;
 	padding-bottom: 20px;
 	padding-right: 6px;
+}
+
+
+
+.hotel-picture{
+	font-size: 0;
+	line-height: 0;
 }
 
 

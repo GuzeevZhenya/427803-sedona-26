@@ -63,23 +63,24 @@
 							</li>
 						</ul>
 					</div>
-				</ul>
-				<!--Слайдер	-->
+			<!--Слайдер	-->
 				<div class="cost-area">
-					<div class="filter-range-title">Стоимость в сутки (P):</div>
-					<div class="value">
-						<label for="min-value" class="text-check-1">От</label>
-						<input type="text" id="min-value" name="min-value" value="" placeholder="0">
-						<label for="max-value" class="text-check-2">До</label>
-						<input type="text" id="max-value" name="max-value" value="" placeholder="3000">
-					</div>
-					<div class="range-section">
-						<div class="contour-grey"></div>
-						<div class="contour-white"></div>
-						<button class="button-left" type="button" tabindex="0"></button>
-						<button class="button-right" type="button" tabindex="0"></button>
-					</div>
-					<button class="submit-show" value="Показать" type="submit">Показать</button> 
+					<fieldset class="cost-section">
+						<span>Стоимость в сутки (Р):</span>
+						<div class="value">
+							<label for="min-value" class="text-check-1">От</label>
+							<input type="text" id="min-value" name="min-value" value="" placeholder="0">
+							<label for="max-value" class="text-check-2">До</label>
+							<input type="text" id="max-value" name="max-value" value="" placeholder="3000">
+						</div>
+						<div class="radio-section">
+							<div class="contour-grey"></div>
+							<div class="contour-white"></div>
+							<button class="button-left" type="button" tabindex="0"></button>
+							<button class="button-right" type="button" tabindex="0"></button>
+						</div>
+					</fieldset>
+					<button class="submit-show" type="submit" value="Показать">Показать</button>
 				</div>
 			</form>
 		</section>
@@ -102,23 +103,29 @@
 		</section>
 
 		<!--1 блок отелей-->
-		<section class="hotels-info">
-			<div class="hotel-wrapper">
-				<img src="img/amara.jpg" width="135" height="90">
+		<article class="hotels-info">
+			<div class="hotels-wrapper">
+				<div class="hotel-picture">
+					<img src="img/amara.jpg" width="135" height="90">
+				</div>
 				<div class="about-hotels">
 					<a href="#" class="title"><h2>Amara Resort & Spa</h2></a>
-					<ul class="hotels-links">
-						<li><span>Гостиница</span></li>
-						<li><span>От 4000</span></li>
-					</ul>	
-					<a href="#" class="more-info">Подробнее</a>
-					<a href="#" class="booked">Забронировать</a>
+					<div class="hotels-links">
+						<div class="hotels-price">
+							<span>Гостиница</span>
+							<a href="#" class="more-info">Подробнее</a>
+						</div>
+						<div class="price-info">
+							<span>От 4000 P</span>
+							<a href="#" class="booked">Забронировать</a>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="rating">
 				<span>Рейтинг 8.5</span>
 			</div>
-		</section>
+		</article>
 		
 		<!--2 блок отелей-->
 		<article class="hotels-info">
@@ -134,7 +141,7 @@
 							<a href="#" class="more-info">Подробнее</a>
 						</div>
 						<div class="price-info">
-							<span>От 3000</span>
+							<span>От 3000 P</span>
 							<a href="#" class="booked">Забронировать</a>
 						</div>
 					</div>
@@ -148,8 +155,9 @@
 		
 		<!--3 блок отелей-->
 		<article class="hotels-info">
+			<div class="hotels-wrapper">
 				<div class="hotel-picture">
-					<img src="img/desert.jpg">
+					<img src="img/desert.jpg" width="135" height="90">
 				</div>
 				<div class="about-hotels">
 					<a href="#" class="title"><h2>Villas at poco diablo</h2></a>
@@ -159,12 +167,12 @@
 							<a href="#" class="more-info">Подробнее</a>
 						</div>
 						<div class="price-info">
-							<span>От 2000</span>
+							<span>От 2000 P</span>
 							<a href="#" class="booked">Забронировать</a>
 						</div>
 					</div>
 				</div>
-		 
+			</div>
 			<div class="rating">
 				<img src="img/star.svg" width="20" heigth="10" alt="stars">
 				<p>Рейтинг 9,2</p>

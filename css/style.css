@@ -7,6 +7,8 @@ body{
 	font-family: "PT Sans", Arial, sans-serif;	
 	text-transform: uppercase;
 	background-color: #f2f2f2;
+	font-size: 14px;
+	line-height: 21px;
 }
 img{
 	max-width: 100%;
@@ -1189,71 +1191,128 @@ img{
 	color: #81b4d3;
 }
 
+
 .hotels-info{
 	width: 1200px;
 	display: flex;
-	justify-content: space-between;
 	flex-direction: row;
-	padding-top: 30px;
+	padding-top: 30px ;
 	padding-bottom: 30px;
+	justify-content: space-between;
 	border-bottom: 1px solid black;
-	align-items: stretch;
-	background-color: #fff;
-	flex-wrap: wrap;
 }
 
-.hotel-wrapper{
+.hotels-info a{
+	text-decoration: none;
+}
+
+ 
+.hotels-wrapper{
 	display: flex;
+	flex-direction: row;
 	width: 528px;
-
+	margin-left: 72px;
 }
-
-.hotel-wrapper img{
-	max-width: 135px;
-	height: 90px;
-	margin-left: 72px; 
-}
-
-.about-hotels{
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-start;
-	width: 258px;
-	margin-left: 30px;
-}
-
-.about-hotels h2{
-	margin: 0;
-	font-size: 21px;
-	line-height: 26px;
-	color: #000000;
-}
-
-.hotels-links{
-	margin: 0;
-	list-style: none;
-	display: flex;
-
-	flex-wrap: wrap;
-	margin-top: 2px;
-	padding-left: 0;
-	width: 258px;
-}
-
-.more-info,.booked{
-	margin-top:  18px;
-	padding-bottom: 20px;
-	padding-right: 6px;
-}
-
-
 
 .hotel-picture{
 	font-size: 0;
 	line-height: 0;
 }
 
+.about-hotels{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 30px;
+}
 
+.title h2{
+	margin: 0;
+	color: #000000;
+}
+
+.hotels-links{
+	display: flex;
+	flex-direction: row;
+}
+
+.hotels-price,.price-info{
+	display: flex;
+	flex-direction: column;
+	margin-right: 7px;
+}
+
+.hotels-price span,
+.price-info span {
+	margin-bottom: 14px;
+}
+
+.title{
+	margin-top: -3px;
+}
+
+.more-info{
+	width: 110px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #81b3d2;
+	color: #ffffff;
+	
+	text-align: center;
+
+}
+
+.booked{
+	width: 142px;
+	color: #ffffff;
+	background-color: #766357;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
+/*
+
+
+.hotels-links{
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 2px;
+	padding-left: 0;
+	width: 258px;
+	margin-top: 18px;
+}
+
+.hotels-price, .price-info{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.hotels-price a{
+	font-size: 14px;
+	line-height: 26px;
+	background-color: #81b3d2;
+	color: #ffffff;
+	margin-right: 7px;
+	text-align: center;
+
+	width: 109px;
+}
+
+.price-info a{
+	background-color: #766357;
+	color: #ffffff;
+	width: 142px;
+	text-align: center;
+}
+
+.more-info{
+	margin-top: 20px;
+}
 
 /*
 .hotels-info{

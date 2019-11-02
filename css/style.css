@@ -1043,7 +1043,7 @@ img {
 
 .sorting {
 	width: 1200px;
-	border-bottom: 2px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -1100,6 +1100,7 @@ img {
 	line-height: 26px;
 	width: 135px;
 	padding-left: 8px;
+	font-weight: bold;
 }
 
 .sorting-container {
@@ -1157,7 +1158,7 @@ img {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	justify-content: space-between;
-	border-bottom: 2px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .hotels-info a {

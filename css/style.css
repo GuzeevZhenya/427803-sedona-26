@@ -1123,9 +1123,7 @@ img {
 }
 
 .sorting-up:hover svg,
-.sorting-up:focus svg,
-.sorting-down:focus svg,
-.sorting-down:hover svg {
+.sorting-up:focus svg{
 	fill: #231f20;
 }
 
@@ -1139,10 +1137,12 @@ img {
 
 .sorting-by a:focus {
 	color: #000000;
+	border-bottom: none;
 }
 
 .sorting-by a:active {
 	color: #89b8d5;
+
 }
 
 .active-price a {

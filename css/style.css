@@ -1048,7 +1048,7 @@ img {
 	padding-bottom: 30px;
 }
 
-.sorting-by h3 {
+.sorting-title{
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 18px;
@@ -1094,7 +1094,7 @@ img {
 	justify-content: space-between;
 }
 
-.sorting-by h2 {
+.sorting-find {
 	margin: 0;
 	font-size: 21px;
 	line-height: 26px;

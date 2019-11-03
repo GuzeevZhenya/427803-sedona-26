@@ -12,7 +12,7 @@
 		<header class="header">
 			<nav class="nav">
 				<a href="index.html" class="logo">
-					<img src="img/logo-sedona.svg" width="120" alt="Логотип Sedona">
+					<img src="img/logo-sedona.svg" width="120" height="71а" alt="Логотип Sedona">
 				</a>
 				<ul class="nav-list">
 					<li><a href="#" class="nav-item">Информация</a></li>
@@ -31,16 +31,22 @@
 						<span>Инфаструктура:</span>
 						<ul class="check-list-1">
 							<li class="pool-check">
+							<label>
 								<input type="checkbox" id="pool-check" name="checkbox1" value="pool" checked="" class="visually-hidden" />
-								<label for="pool-check">Бассейн</label>
+								<span class="checkbox-indicator">Бассейн</span>
+							</label>
 							</li>
 							<li class="parking-check">
+								<label for="parking-check">
 								<input type="checkbox" id="parking-check" name="checkbox2" value="parking" class="visually-hidden"/>
-								<label for="parking-check">Парковка</label>
+								
+								<span class="checkbox-indicator">Парковка</span></label>
 							</li>
 							<li class="wi-fi-check">
+								<label for="wi-fi-check">
 								<input type="checkbox" id="wi-fi-check" name="checkbox3" value="wi-fi" class="visually-hidden">
-								<label for="wi-fi-check">Wi-Fi</label>
+								<span class="checkbox-indicator">Wi-Fi
+								</span></label>
 							</li>
 						</ul>
 					</div>
@@ -50,14 +56,14 @@
 						<ul class="check-list-2">
 							<li class="hotel-check">
 								<input type="checkbox" id="hotel-check" name="checkbox4" value="hotel" checked="" class="visually-hidden" />
-								<label for="hotel-check">Гостиница</label>
+								<label for="hotel-check"><span class="checkbox-indicator"></span>Гостиница</label>
 							</li>
 
 							<li class="motel-check">
 								<input type="checkbox" id="motel-check" name="checkbox5" value="motel" checked="" class="visually-hidden" />
 								<label for="motel-check">Мотель</label>
 							</li>
-							<li class="apartament-check">
+							<li class="apartament-	check">
 								<input type="checkbox"  id="apartament-check" name="checkbox6" value="apartament"  class="visually-hidden" checked="" />
 								<label for="apartament-check">Апартаменты</label>
 							</li>
@@ -68,10 +74,10 @@
 						<fieldset class="cost-section">
 							<span>Стоимость в сутки (Р):</span>
 							<div class="value">
-								<label for="min-value" class="text-check-1">От</label>
-								<input type="text" id="min-value" name="min-value" value="" placeholder="0">
-								<label for="max-value" class="text-check-2">До</label>
-								<input type="text" id="max-value" name="max-value" value="" placeholder="3000">
+								<label for="min-value" class="text-check-1">От
+								<input type="text" id="min-value" name="min-value" value="0" ></label>
+								<label for="max-value" class="text-check-2">До
+								<input type="text" id="max-value" name="max-value" value="3000"></label>
 							</div>
 							<div class="radio-section">
 								<div class="contour-grey"></div>

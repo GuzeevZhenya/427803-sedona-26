@@ -516,8 +516,11 @@ img {
 	background-color: #ffffff;
 }
 
+.form-script{
+	display: flex;
+}
+
 .form-hidden {
-	/*display: none;*/
 	-webkit-animation: bounce 0.6s;
 	        animation: bounce 0.6s;
 }

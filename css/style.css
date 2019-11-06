@@ -1089,9 +1089,7 @@ img {
 }
 
 
-.house-serch input[type="text"]::placeholder {
-	color: #ffffff;
-}
+
 
 .house-serch input[type="text"]::-webkit-input-placeholder {
 	color: #ffffff;
@@ -1113,6 +1111,10 @@ img {
 .house-serch input[type="text"]:-moz-placeholder {
 	color: #ffffff;
 	opacity: 1;
+}
+
+.house-serch input[type="text"]::placeholder {
+	color: #ffffff;
 }
 
 .number-section {

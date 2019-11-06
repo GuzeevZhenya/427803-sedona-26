@@ -54,6 +54,7 @@ img {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	flex-wrap: wrap;
 	font-size: 14px;
 	list-style-type: none;
 	line-height: 26px;
@@ -62,6 +63,7 @@ img {
 	margin-bottom: 0px;
 	padding-left: 0;
 	text-align: center;
+	
 }
 
 .nav-list li {
@@ -191,6 +193,7 @@ img {
 	display: flex;
 	text-align: center;
 	width: 1200px;
+	background-color: #81b4d3;
 }
 
 .reasons-city,
@@ -1085,16 +1088,16 @@ img {
 	margin-left: 107px;
 }
 
+
+.house-serch input[type="text"]::placeholder {
+	color: #ffffff;
+}
+
 .house-serch input[type="text"]::-webkit-input-placeholder {
 	color: #ffffff;
 }
 
-
 .house-serch input[type="text"]:-ms-input-placeholder {
-	color: #ffffff;
-}
-
-.house-serch input[type="text"]::placeholder {
 	color: #ffffff;
 }
 
